@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="../../css/desktop.css" />
   <link rel="stylesheet" href="../../css/modal.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
   <title>Striker Sets - Desktop page</title>
 </head>
 
@@ -38,7 +41,7 @@
 
     <div class="mainView">
       <div class="tabContent" id="strikersContent">
-        <div class="column" id="strikerSelect">
+        <div class="leftBox">
           <div id="strikerDropdown">
             <select>
               <option value="Aimi">Ai.Mi</option>
@@ -63,13 +66,18 @@
           <div class="imageContainer">
             <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
           </div>
-          <div class="adBox">
-            placeholder
+        </div>
+        <div class="rightBox">
+          <div class="strikerAwakenings">
+
+          </div>
+          <div class="strikerTierList">
+
           </div>
         </div>
       </div>
       <div class="tabContent" id="setsContent">
-        <div class="column" id="setColumn">
+        <div class="leftBox">
             <button class="addButton" id="addBuild">+</button>
           <div class="set">
             <h6>PlaceholderName</h6>
@@ -100,9 +108,12 @@
             </div>
           </div>
         </div>
+        <div class="rightBox">
+           
+        </div>
       </div>
       <div class="tabContent" id="setBuilderContent">
-        <div class="column">
+        <div class="leftBox">
           <div class="searchContainer">
             <input id="awakeningsSearch" type="text" placeholder="Search by name...">
           </div>
@@ -146,15 +157,67 @@
             <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Unstoppable.webp"/>
           </div>
         </div>
+        <div class="rightBox">
+          <div class="fileButtons">
+            <button>Save Set</button>
+            <button>Clear Set</button>
+          </div>
+          <div class="set">
+            <input id="setNameInput" type="text" placeholder="Set name">
+            <div class="picksRow" id="firstPicks">
+              <div class="numberBox"><p>Best in<br>Slot</p></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            </div>
+            <div class="rowDivider"></div>
+            <div class="picksRow" id="firstPicks">
+              <div class="numberBox"><p>Next<br>Best</p></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="tabContent" id="tierListsContent">
-        
+        <div class="leftBox">
+
+        </div>
+        <div class="rightBox">
+          
+        </div>
       </div>
       <div class="tabContent" id="matchHistoryContent">
-        
+        <div class="leftBox">
+          
+        </div>
+        <div class="rightBox">
+          
+        </div>
       </div>
       <div class="tabContent" id="settingsContent">
-        
+        <div class="leftBox">
+          
+        </div>
+        <div class="rightBox">
+          
+        </div>
+      </div>
+      <div class="adBox">
+        AD
       </div>
     </div>
   </main>

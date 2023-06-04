@@ -2,26 +2,20 @@ body {
   margin: 0px;
   min-height: 100vh;
   font-size: 14px;
-  /* overflow: hidden; */
+  overflow: hidden;
   background-color: rgb(27, 51, 82);
   color: black;
-  font-family: sans-serif;
-  /* border-color: blue;
-  border-width: 1px;
-  border-style: solid; */
+  font-family: 'Kanit', sans-serif;
 }
 
 main {
   display: block;
 }
 
-a {
-  color: inherit;
-}
-
+/* Tabs & NavBar */
 .tabBar {
   color: white;
-  background-color: rgb(74, 76, 81);
+  background-color: rgb(49, 53, 89);
   width: 100%;
   height: 28px;
   margin-top: 0px;
@@ -38,7 +32,7 @@ a {
   justify-content: center;
 }
 
-.tabBar li {
+.tabLink {
   width: calc(100% / 6);
   height: 28px;
   display: flex;
@@ -49,47 +43,51 @@ a {
   cursor: pointer;
 }
 
-.tabBar li:hover {
-  background-color: lightgray;
-}
-
-.tabBar li:active {
-  background-color: rgb(38, 39, 39);
-}
-
 .tabContent {
   display: none;
 }
 
+/* Shared Between Tabs */
 .mainView {
   text-align: center;
+  display: block;
 }
 
-.mainView:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.columnBox {
-  margin-left: 1px;
-}
-
-.column {
-  width: 30%;
-  height: calc(100vh - 65px);
+.leftBox {
+  height: calc(100vh - 365px);
   float: left;
-  min-width: 400px;
-  
-  /* border-color: red;
-  border-width: 1px;
+  width: 400px;
+
+  /* border-width: 1px;
+  border-color: red;
   border-style: solid; */
 }
 
-#strikerSelect {
-  width: 400px;
+.rightBox {
+  height: calc(100vh - 60px);
+  float: right;
+  width: calc(100% - 405px);
+
+  /* border-width: 1px;
+  border-color: yellow;
+  border-style: solid; */
 }
 
+.adBox {
+  margin-left: 0px;
+  background-color: rgb(25, 62, 104);
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+
+  
+  /* border-width: 1px;
+  border-color: orange;
+  border-style: solid; */
+}
+
+/* Strikers Tab */
 #strikerDropdown {
   height: 40px;
   width: 90%;
@@ -104,17 +102,19 @@ a {
   margin-right: auto;
 }
 
-.adBox {
-  border-color: orange;
-  border-width: 1px;
-  border-style: solid;
-  width: 400px;
-  height: 300px;
-  position: absolute;
-  bottom: 0px;
+/* Set Builder Tab */
+.fileButtonsContainer {
+  float: right;
 }
 
+#setNameInput {
+  background-color: rgb(36, 64, 94);
+  border-width: 0px;
+  height: 30px;
+  width: calc(100% - 4px);
+}
 
+/* Sets */
 #addBuild {
   height: 40px;
   width: 40px;
@@ -126,10 +126,14 @@ a {
 }
 
 .set {
-  height: 160px;
   margin-top: 10px;
   display: inline-block;
   width: 95%;
+
+  
+  /* border-width: 1px;
+  border-color: green;
+  border-style: solid; */
 }
 
 .set h6 {
@@ -142,6 +146,7 @@ a {
 
 .picksRow  {
   background-color: rgb(51, 84, 122);
+  max-height: 150px;
   display: flex;
 }
 

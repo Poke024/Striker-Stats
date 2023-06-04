@@ -6,26 +6,39 @@ import { kWindowNames } from "../consts";
 // Therefore, only the generic AppWindow class is called.
 new AppWindow(kWindowNames.desktop);
 
-var activeNav = (document.getElementById("strikers") as HTMLElement);
-activeNav.className += " active";
-var activeTab = (document.getElementById("strikersContent") as HTMLElement);
+var activeNav = (document.getElementById("setBuilder") as HTMLElement);
+activeNav.style.background = "rgb(27, 51, 82)";
+var activeTab = (document.getElementById("setBuilderContent") as HTMLElement);
 activeTab.style.display = "block";
 
 function changeTab(event) {
     let clickedNav = (event.currentTarget) as HTMLElement;
-    activeNav.className = activeNav.className.replace(" active", "");
+    activeNav.style.background = "rgb(49, 53, 89)";
     activeNav = clickedNav;
-    activeNav.className += " active";
+    activeNav.style.background = "rgb(27, 51, 82)";
     activeTab.style.display = "none";
     activeTab = (document.getElementById(clickedNav.id + "Content") as HTMLElement);
     activeTab.style.display = "block";
 }
 
-(document.getElementById("strikers") as HTMLElement).addEventListener('click', changeTab);
-(document.getElementById("sets") as HTMLElement).addEventListener('click', changeTab);
-(document.getElementById("setBuilder") as HTMLElement).addEventListener('click', changeTab);
-(document.getElementById("tierLists") as HTMLElement).addEventListener('click', changeTab);
-(document.getElementById("matchHistory") as HTMLElement).addEventListener('click', changeTab);
-(document.getElementById("settings") as HTMLElement).addEventListener('click', changeTab);
+function changeColor(event, rgbString) {
+    let clickedNav = (event.currentTarget) as HTMLElement;
+    if (clickedNav != activeNav) {
+        clickedNav.style.background = rgbString;
+    }
+}
+
+for (var tab of Array.from(document.getElementsByClassName("tabLink") as HTMLCollectionOf<HTMLElement>)) {
+    tab.addEventListener('click', changeTab);
+    tab.addEventListener('mouseover', (event) => {
+        changeColor(event, "rgb(32, 34, 58)");
+    });
+    tab.addEventListener('mouseleave', (event) => {
+        changeColor(event, "rgb(49, 53, 89)");
+    });
+    tab.addEventListener('mousedown', (event) => {
+        changeColor(event, "rgb(38, 39, 39)");
+    });
+}
 
 
