@@ -89,7 +89,8 @@ class BackgroundController {
 
   private async isSupportedGameRunning(): Promise<boolean> {
     const info = await OWGames.getRunningGameInfo();
-
+    console.log("Running game info");
+    console.log(info);
     return info && info.isRunning && this.isSupportedGame(info);
   }
 
@@ -100,3 +101,4 @@ class BackgroundController {
 }
 
 BackgroundController.instance().run();
+console.log()

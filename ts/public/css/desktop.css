@@ -1,51 +1,192 @@
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0px;
   min-height: 100vh;
-  overflow: hidden;
   font-size: 14px;
-  background-color: #f6f6f6;
+  /* overflow: hidden; */
+  background-color: rgb(27, 51, 82);
   color: black;
   font-family: sans-serif;
+  /* border-color: blue;
+  border-width: 1px;
+  border-style: solid; */
 }
 
 main {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  display: block;
 }
 
 a {
   color: inherit;
 }
 
-.desktopTop {
+.tabBar {
   color: white;
-  background-image: url("../img/background.svg");
+  background-color: rgb(74, 76, 81);
   width: 100%;
-  height: 243px;
-  top: 0;
+  height: 28px;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+.tabBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabBar li {
+  width: calc(100% / 6);
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.tabBar li:hover {
+  background-color: lightgray;
+}
+
+.tabBar li:active {
+  background-color: rgb(38, 39, 39);
+}
+
+.tabContent {
+  display: none;
+}
+
+.mainView {
   text-align: center;
 }
 
-.desktopTop h1 {
-  font-family: "Roboto Mono", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  color: #d5d5d5;
-  margin-top: 40px;
+.mainView:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.desktopTop p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  color: #d5d5d5;
-  font-size: 15px;
-  line-height: 20px;
+.columnBox {
+  margin-left: 1px;
+}
+
+.column {
+  width: 30%;
+  height: calc(100vh - 65px);
+  float: left;
+  min-width: 400px;
+  
+  /* border-color: red;
+  border-width: 1px;
+  border-style: solid; */
+}
+
+#strikerSelect {
+  width: 400px;
+}
+
+#strikerDropdown {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#strikerImage {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adBox {
+  border-color: orange;
+  border-width: 1px;
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+#addBuild {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color:rgb(63, 63, 63);
+  font-size: 36px;
+  color: rgb(255, 215, 1);
+}
+
+.set {
+  height: 160px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 95%;
+}
+
+.set h6 {
+  margin: 0px;
+  padding: 5px 0px 10px 0px;
+  background-color: rgb(36, 64, 94);
+  color: white;
+  width: 100%;
+}
+
+.picksRow  {
+  background-color: rgb(51, 84, 122);
+  display: flex;
+}
+
+.numberBox {
+  background-color: rgb(33, 66, 107);
+  width: calc(100% / 6);
+  text-align: center;
+  color: white;
+}
+
+.pickImage {
+  width: calc(100% / 6);
+}
+
+.pickDivider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 2px;
+}
+
+.rowDivider {
+  height: 0px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#awakeningsSearch {
+  margin: 10px 0px 10px 0px;
+  width: 90%;
+  height: 25px;
+}
+
+#awakeningsGrid {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100% - 60px);
+  z-index: 0;
+  margin: 0px 5px 20px 5px;
+  background: rgb(51, 84, 122);
+}
+
+.awakeningImage {
+  width: 90px;
+  height: 90px;
 }
 
 #version {
@@ -54,42 +195,4 @@ a {
   font-weight: normal;
   font-size: 15px;
   color: #8d8d8d;
-}
-
-.desktopBottom {
-  background-color: #464646;
-  width: 100%;
-  flex: 1;
-  display: flex;
-  padding: 67px 0px;
-}
-
-.desktopBottom > #left {
-  flex: 1 1 30%;
-}
-
-.desktopBottom > #left > h1 {
-  font-family: "Roboto Mono", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 0px 57px;
-  color: #d5d5d5;
-}
-
-.desktopBottom > #middle {
-  flex: 1 1 40%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: #8d8d8d;
-}
-
-.desktopBottom > #right {
-  flex: 1 1 30%;
-}
-
-#ad {
-  display: inline-block;
-  margin-right: 10px;
 }

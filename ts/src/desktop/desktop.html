@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="../../css/desktop.css" />
   <link rel="stylesheet" href="../../css/modal.css" />
-  <title>Overwolf Sample App - Desktop page</title>
+  <title>Striker Sets - Desktop page</title>
 </head>
 
 <body class="desktop">
@@ -15,7 +15,7 @@
 
   <header id="header" class="app-header">
     <img src="../../img/header_icon.svg" />
-    <h1>Sample App / desktop window</h1>
+    <h1>Striker Sets - Desktop</h1>
     <div class="window-controls-group">
       <button id="minimizeButton" class="window-control window-control-minimize" />
       <button id="maximizeButton" class="window-control window-control-maximize" />
@@ -25,40 +25,136 @@
 
   <!-- --------------------------------- Main -------------------------------- -->
   <main>
-    <div class="desktopTop">
-      <h1>Overwolf Sample App</h1>
-      <p>
-        Welcome to the Overwolf tutorial app for developers.<br />
-        Learn how to build an app by using one!
-      </p>
-      <div id="version"></div>
+    <div class="tabBar">
+      <ul>
+        <li class="tabLink" id="strikers">Strikers</li>
+        <li class="tabLink" id="sets">Sets</li>
+        <li class="tabLink" id="setBuilder">Set Builder</li>
+        <li class="tabLink" id="tierLists">Tier Lists</li>
+        <li class="tabLink" id="matchHistory">Match History</li>
+        <li class="tabLink" id="settings">Settings</li>
+      </ul>
     </div>
-    <div class="desktopBottom">
-      <!-- Launch a game! -->
-      <div id="left">
-        <h1>
-          Launch a game and the In-Game window will pop-up automatically!
-        </h1>
-      </div>
-      <!-- Launch a game! -->
-      <div id="middle">
-        What can you learn with this sample app?
-        <br /><br />
-        1. How to listen to real-time game events and how to identify specific
-        events like match start/end, kill, and death.
-        <br /><br />
-        2. How to use a transparent background window as a service bus, that
-        acts as the main controller of your app.
-        <br /><br />
-        3. How to use Hotkeys that show/hide your app while you are in-game.
-      </div>
-      <!-- picture -->
-      <div id="right">
-        <div style="text-align: center">
-          <div style="display: inline-block">
-            <img src="../../img/cool_wolf.png" />
+
+    <div class="mainView">
+      <div class="tabContent" id="strikersContent">
+        <div class="column" id="strikerSelect">
+          <div id="strikerDropdown">
+            <select>
+              <option value="Aimi">Ai.Mi</option>
+              <option value="Asher">Asher</option>
+              <option value="Atlas">Atlas</option>
+              <option value="Drekar">Drekar</option>
+              <option value="Dubu">Dubu</option>
+              <option value="Era">Era</option>
+              <option value="Estelle">Estelle</option>
+              <option value="Juliette">Juliette</option>
+              <option value="Juno">Juno</option>
+              <option value="Kai">Kai</option>
+              <option value="Luna">Luna</option>
+              <option value="Octavia">Drekar</option>
+              <option value="Rasmus">Rasmus</option>
+              <option value="Rune">Rune</option>
+              <option value="Vyce">Asher</option>
+              <option value="X">X</option>
+              <option value="Zentaro">Zentaro</option>
+            </select>
+          </div>
+          <div class="imageContainer">
+            <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
+          </div>
+          <div class="adBox">
+            placeholder
           </div>
         </div>
+      </div>
+      <div class="tabContent" id="setsContent">
+        <div class="column" id="setColumn">
+            <button class="addButton" id="addBuild">+</button>
+          <div class="set">
+            <h6>PlaceholderName</h6>
+            <div class="picksRow" id="firstPicks">
+              <div class="numberBox"><p>Best in<br>Slot</p></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            </div>
+            <div class="rowDivider"></div>
+            <div class="picksRow" id="firstPicks">
+              <div class="numberBox"><p>Next<br>Best</p></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
+              <div class="pickDivider"></div>
+              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabContent" id="setBuilderContent">
+        <div class="column">
+          <div class="searchContainer">
+            <input id="awakeningsSearch" type="text" placeholder="Search by name...">
+          </div>
+          <div id="awakeningsGrid">
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-CastToLast.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Chronoboost.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-DeadEye.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-ExtraSpecial.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-GlassCannon.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-HeavyImpact.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-HotShot.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-MissilePropulsion.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Monumentalist.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OneTwoPunch.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbDancer.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbPonderer.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbReplicator.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PeakPerformance.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PerfectForm.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PrimeTime.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PrizeFighter.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-QuickStrike.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-RapidFire.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofAgility.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofFocus.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofResilience.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofStrength.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SpecializedTraining.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-StacksOnStacks.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-StaggerSwagger.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Stinger.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SuperSurge.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TempoSwings.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TimelessCreator.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TwinDrive.webp"/>
+            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Unstoppable.webp"/>
+          </div>
+        </div>
+      </div>
+      <div class="tabContent" id="tierListsContent">
+        
+      </div>
+      <div class="tabContent" id="matchHistoryContent">
+        
+      </div>
+      <div class="tabContent" id="settingsContent">
+        
       </div>
     </div>
   </main>
