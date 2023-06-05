@@ -31,7 +31,7 @@
     <div class="tabBar">
       <ul>
         <li class="tabLink" id="strikers">Strikers</li>
-        <li class="tabLink" id="sets">Sets</li>
+        <li class="tabLink" id="sets">Meta Sets</li>
         <li class="tabLink" id="setBuilder">Set Builder</li>
         <li class="tabLink" id="tierLists">Tier Lists</li>
         <li class="tabLink" id="matchHistory">Match History</li>
@@ -42,30 +42,6 @@
     <div class="mainView">
       <div class="tabContent" id="strikersContent">
         <div class="leftBox">
-          <div id="strikerDropdown">
-            <select>
-              <option value="Aimi">Ai.Mi</option>
-              <option value="Asher">Asher</option>
-              <option value="Atlas">Atlas</option>
-              <option value="Drekar">Drekar</option>
-              <option value="Dubu">Dubu</option>
-              <option value="Era">Era</option>
-              <option value="Estelle">Estelle</option>
-              <option value="Juliette">Juliette</option>
-              <option value="Juno">Juno</option>
-              <option value="Kai">Kai</option>
-              <option value="Luna">Luna</option>
-              <option value="Octavia">Drekar</option>
-              <option value="Rasmus">Rasmus</option>
-              <option value="Rune">Rune</option>
-              <option value="Vyce">Asher</option>
-              <option value="X">X</option>
-              <option value="Zentaro">Zentaro</option>
-            </select>
-          </div>
-          <div class="imageContainer">
-            <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
-          </div>
         </div>
         <div class="rightBox">
           <div class="strikerAwakenings">
@@ -77,8 +53,10 @@
         </div>
       </div>
       <div class="tabContent" id="setsContent">
-        <div class="leftBox">
+        <div class="leftBox" id="setBox">
+          <div class="centerBox">
             <button class="addButton" id="addBuild">+</button>
+          </div>
           <div class="set">
             <h6>PlaceholderName</h6>
             <div class="picksRow" id="firstPicks">
@@ -158,46 +136,96 @@
           </div>
         </div>
         <div class="rightBox">
-          <div class="fileButtons">
-            <button>Save Set</button>
-            <button>Clear Set</button>
-          </div>
-          <div class="set">
+          <div class="setControls">
             <input id="setNameInput" type="text" placeholder="Set name">
-            <div class="picksRow" id="firstPicks">
-              <div class="numberBox"><p>Best in<br>Slot</p></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
-            </div>
-            <div class="rowDivider"></div>
-            <div class="picksRow" id="firstPicks">
-              <div class="numberBox"><p>Next<br>Best</p></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+            <div class="buttonsContainer">
+              <button>Save Set</button>
+              <button>Clear Set</button>
             </div>
           </div>
         </div>
       </div>
       <div class="tabContent" id="tierListsContent">
         <div class="leftBox">
-
+          <div id="strikerDropdown">
+            <select>
+              <option value="Aimi">Ai.Mi</option>
+              <option value="Asher">Asher</option>
+              <option value="Atlas">Atlas</option>
+              <option value="Drekar">Drekar</option>
+              <option value="Dubu">Dubu</option>
+              <option value="Era">Era</option>
+              <option value="Estelle">Estelle</option>
+              <option value="Juliette">Juliette</option>
+              <option value="Juno">Juno</option>
+              <option value="Kai">Kai</option>
+              <option value="Luna">Luna</option>
+              <option value="Octavia">Drekar</option>
+              <option value="Rasmus">Rasmus</option>
+              <option value="Rune">Rune</option>
+              <option value="Vyce">Asher</option>
+              <option value="X">X</option>
+              <option value="Zentaro">Zentaro</option>
+            </select>
+          </div>
+          <div class="imageContainer">
+            <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
+          </div>
         </div>
-        <div class="rightBox">
-          
+        <div class="rightBox" id="tierListBox">
+          <div class="roleSelect">
+            <ul>
+              <li class="roleOption" id="forward">Forward</li>
+              <li class="roleOption" id="goalie">Goalie</li>
+            </ul>
+          </div>
+          <div class="tierList">
+            <div class="tier">
+              <div class="tierLabel" id="gear">
+                <p>Gear</p>
+              </div>
+            </div>
+            <div class="tierDivider"></div>
+            <div class="tier">
+              <div class="tierLabel" id="bestInSlot">
+                <p>Best In<br>Slot</p>
+                <div class="awakeningsRow">
+                </div>
+              </div>
+            </div>
+            <div class="tierDivider"></div>
+            <div class="tier">
+              <div class="tierLabel" id="ATier">
+                <p>A</p>
+                <div class="awakeningsRow">
+                </div>
+              </div>
+            </div>
+            <div class="tierDivider"></div>
+            <div class="tier">
+              <div class="tierLabel" id="BTier">
+                <p>B</p>
+                <div class="awakeningsRow">
+                </div>
+              </div>
+            </div>
+            <div class="tierDivider"></div>
+            <div class="tier">
+              <div class="tierLabel" id="lastResort">
+                <p>Last<br>Resort</p>
+                <div class="awakeningsRow">
+                </div>
+              </div>
+            </div>
+            <div class="tierDivider"></div>
+            <div class="tier">
+              <div class="tierLabel" id="doNotTake">
+                <p>DO NOT<br>TAKE</p>
+                <div class="awakeningsRow">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="tabContent" id="matchHistoryContent">
