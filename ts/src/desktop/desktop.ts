@@ -60,8 +60,7 @@ for (var role of Array.from(document.getElementsByClassName("roleOption") as HTM
         changeColor(event, "rgb(38, 39, 39)");
     });
     role.addEventListener('mousedown', (event) => {
-        changeColor(event, "rgb(38, 39, 39)");
+        changeColor(event, "rgb(51, 84, 122)");
     });
 }
-
 

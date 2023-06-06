@@ -146,9 +146,9 @@
         </div>
       </div>
       <div class="tabContent" id="tierListsContent">
-        <div class="leftBox">
-          <div id="strikerDropdown">
-            <select>
+        <div class="leftBox" id="strikerBox">
+          <div class="strikerOptions">
+            <select class="strikerDropdown" id="tierListDropdown">
               <option value="Aimi">Ai.Mi</option>
               <option value="Asher">Asher</option>
               <option value="Atlas">Atlas</option>
@@ -167,9 +167,13 @@
               <option value="X">X</option>
               <option value="Zentaro">Zentaro</option>
             </select>
+            <div class="defaultContainer">
+              <input class="defaultCheck" id="defaultTierlist" type="checkbox"/>
+              <label class="defaultLabel" for="defaultTierList">Set as Default</label>
+            </div>
           </div>
-          <div class="imageContainer">
-            <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
+          <div class="strikerContainer">
+            <img id="strikerImage" src="../../img/FullNameplates/AimiNP1.png"/>
           </div>
         </div>
         <div class="rightBox" id="tierListBox">

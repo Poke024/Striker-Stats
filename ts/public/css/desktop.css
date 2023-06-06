@@ -87,27 +87,65 @@ main {
   border-style: solid;
 }
 
+.adColumn {
+  width: 160px;
+  height: 600px;
+}
+
 /* Tier Lists Tab */
-#strikerDropdown {
+#strikerBox {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.strikerOptions {
   height: 40px;
-  width: 90%;
+  width: 360px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(36, 64, 94);
+}
+
+.strikerDropdown {
+  width: 60%;
+  background-color: rgb(51, 84, 122);
+  color: white;
+  font-size: 14px;
+}
+
+.defaultContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+.defaultCheck {
+  background: rgb(38, 39, 39);
+  width: 14px;
+  height: 14px;
+}
+
+.defaultLabel {
+  color: white;
+  font-size: 14px;
+}
+
+.strikerContainer {
+  height: calc(100% - 60px);
+  overflow: hidden;
 }
 
 #strikerImage {
   width: 360px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 300px;
 }
 
 #tierListBox {
-  padding-top: 15px;
-
-  border-width: 1px;
-  border-color: purple;
-  border-style: solid;
+  padding-top: 10px;
 }
 
 .roleSelect {
