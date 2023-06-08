@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   overflow: hidden;
   background-color: rgb(27, 51, 82);
-  color: black;
+  color: white;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -14,7 +14,6 @@ main {
 
 /* Tabs & NavBar */
 .tabBar {
-  color: white;
   background-color: rgb(49, 53, 89);
   width: 100%;
   height: 28px;
@@ -57,20 +56,14 @@ main {
   height: calc(100vh - 365px);
   float: left;
   width: 400px;
-
-  /* border-width: 1px;
-  border-color: red;
-  border-style: solid; */
 }
 
 .rightBox {
+  margin-right: 5px;
+  margin-left: 5px;
   height: calc(100vh - 60px);
   float: right;
-  width: calc(100% - 405px);
-
-  /* border-width: 1px;
-  border-color: yellow;
-  border-style: solid; */
+  width: calc(100% - 412px);
 }
 
 .adBox {
@@ -80,11 +73,6 @@ main {
   height: 300px;
   position: absolute;
   bottom: 0px;
-
-  
-  border-width: 1px;
-  border-color: orange;
-  border-style: solid;
 }
 
 .adColumn {
@@ -130,7 +118,6 @@ main {
 }
 
 .defaultLabel {
-  color: white;
   font-size: 14px;
 }
 
@@ -149,10 +136,8 @@ main {
 }
 
 .roleSelect {
-  color: white;
-  height: 40px;
-  background-color: rgb(38, 39, 39);
-
+  height: 30px;
+  background-color: rgb(25, 62, 104);
 }
 
 .roleSelect ul {
@@ -167,13 +152,8 @@ main {
 
 .roleOption {
   width: 50%;
-  height: 40px;
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  outline: none;
+  height: 30px;
+  font-size: 18px;
   cursor: pointer;
 }
 
@@ -184,7 +164,7 @@ main {
 
 .tier {
   background-color: rgb(51, 84, 122);
-  height: calc(20% - 20px);
+  display: flex;
 }
 
 .tierDivider {
@@ -192,17 +172,19 @@ main {
 }
 
 .tierLabel {
-  margin: 0px;
   width: 85px;
-  height: 85px;
+  min-height: 68px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .tierLabel p {
-  margin: 0px;
+  text-align: center;
+  line-height: 20px;
+  color: black;
   font-size: 18px;
+  margin: 0px;
 }
 
 #gear {
@@ -229,103 +211,32 @@ main {
   background-color: rgb(255, 150, 150);  
 }
 
-/* Set Builder Tab */
-.fileButtonsContainer {
-  float: right;
-}
-
-#setNameInput {
-  background-color: rgb(36, 64, 94);
-  border-width: 0px;
-  height: 30px;
-  width: calc(100% - 4px);
-}
-
-/* Sets */
-.centerBox {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#addBuild {
-  height: 60px;
-  width: 60px;
-  border-radius: 25px;
-  background-color:rgb(63, 63, 63);
-  font-size: 36px;
-  color: rgb(255, 215, 1);
-  
-}
-
-.set {
-  margin-top: 10px;
-  display: inline-block;
-  width: 95%;
-
-  
-  /* border-width: 1px;
-  border-color: green;
-  border-style: solid; */
-}
-
-.set h6 {
-  margin: 0px;
-  padding: 5px 0px 10px 0px;
-  background-color: rgb(36, 64, 94);
-  color: white;
-  width: 100%;
-}
-
-.picksRow  {
-  background-color: rgb(51, 84, 122);
-  max-height: 150px;
-  display: flex;
-}
-
-.numberBox {
-  background-color: rgb(33, 66, 107);
-  width: calc(100% / 6);
-  text-align: center;
-  color: white;
-}
-
-.pickImage {
-  width: calc(100% / 6);
-}
-
-.pickDivider {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 2px;
-}
-
-.rowDivider {
-  height: 0px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 1px;
-}
-
-#awakeningsSearch {
-  margin: 10px 0px 10px 0px;
-  width: 90%;
-  height: 25px;
-}
-
-#awakeningsGrid {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: calc(100% - 60px);
-  z-index: 0;
-  margin: 0px 5px 20px 5px;
-  background: rgb(51, 84, 122);
+.awakeningsRow {
+  width: calc(100% - 85px);
+  height: fit-content;
+  padding: 10px;
+  display: inline;
 }
 
 .awakeningImage {
-  width: 90px;
-  height: 90px;
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin-right: 1vw;
+}
+
+.creditFooter {
+  background-color: rgb(36, 64, 94);
+  position: relative;
+}
+
+.creditFooter a {
+  color: rgb(211, 211, 211);
+}
+
+.creditFooter a:hover {
+  color: rgb(255, 255, 0);
+  cursor: pointer;
 }
 
 #version {

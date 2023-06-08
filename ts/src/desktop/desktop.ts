@@ -33,7 +33,7 @@ function changeColor(event, rgbString) {
 function changeRole(event) {
     console.log("Fired changeRole");
     let clickedRole = (event.currentTarget) as HTMLElement;
-    activeRole.style.background = "rgb(38, 39, 39)";
+    activeRole.style.background = "rgb(25, 62, 104)";
     activeRole = clickedRole;
     activeRole.style.background = "rgb(36, 64, 94)";
 }
@@ -54,13 +54,13 @@ for (var tab of Array.from(document.getElementsByClassName("tabLink") as HTMLCol
 for (var role of Array.from(document.getElementsByClassName("roleOption") as HTMLCollectionOf<HTMLElement>)) {
     role.addEventListener('click', changeRole);
     role.addEventListener('mouseover', (event) => {
-        changeColor(event, "rgb(32, 34, 58)");
+        changeColor(event, "rgb(51, 84, 122)");
     });
     role.addEventListener('mouseleave', (event) => {
-        changeColor(event, "rgb(38, 39, 39)");
+        changeColor(event, "rgb(25, 62, 104)");
     });
     role.addEventListener('mousedown', (event) => {
-        changeColor(event, "rgb(51, 84, 122)");
+        changeColor(event, "rgb(38, 39, 39)");
     });
 }
 
