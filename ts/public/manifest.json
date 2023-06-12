@@ -53,12 +53,12 @@
         "transparent": true,
         "override_on_update": true,
         "size": {
-          "width": 1212,
-          "height": 699
+          "width": 1400,
+          "height": 710
         },
         "min_size": {
-          "width": 1212,
-          "height": 699
+          "width": 1400,
+          "height": 710
         }
       },
       "in_game": {

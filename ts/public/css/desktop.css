@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  min-height: 100vh;
   font-size: 14px;
   overflow: hidden;
   background-color: rgb(27, 51, 82);
@@ -53,31 +52,51 @@ main {
 }
 
 .leftBox {
-  height: calc(100vh - 365px);
+  height: calc(100vh - 390px);
   float: left;
   width: 400px;
+  margin-left: 10px;
+
+  border-width: 1px;
+  border-color: red;
+  border-style: solid;
 }
 
 .rightBox {
-  margin-right: 5px;
-  margin-left: 5px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 80px);
+  width: calc(100% - 600px);
+  margin-right: 180px;
   float: right;
-  width: calc(100% - 412px);
+  
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
 }
 
 .adBox {
-  margin-left: 0px;
+  margin: 0 0 10px 10px;
   background-color: rgb(25, 62, 104);
   width: 400px;
   height: 300px;
   position: absolute;
   bottom: 0px;
+
+  border-width: 1px;
+  border-color: yellow;
+  border-style: solid;
 }
 
 .adColumn {
+  position: absolute;
+  right: 10px;
   width: 160px;
   height: 600px;
+  margin-top: 10px;
+  background-color: rgb(25, 62, 104);
+
+  border-width: 1px;
+  border-color: yellow;
+  border-style: solid;
 }
 
 /* Tier Lists Tab */
@@ -102,6 +121,7 @@ main {
   background-color: rgb(51, 84, 122);
   color: white;
   font-size: 14px;
+  border-color: rgb(51, 84, 122);
 }
 
 .defaultContainer {
@@ -123,7 +143,6 @@ main {
 
 .strikerContainer {
   height: calc(100% - 60px);
-  overflow: hidden;
 }
 
 #strikerImage {

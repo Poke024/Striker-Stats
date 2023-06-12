@@ -47,7 +47,7 @@ for (var tab of Array.from(document.getElementsByClassName("tabLink") as HTMLCol
         changeColor(event, "rgb(49, 53, 89)");
     });
     tab.addEventListener('mousedown', (event) => {
-        changeColor(event, "rgb(38, 39, 39)");
+        changeColor(event, "rgb(39, 39, 39)");
     });
 }
 
@@ -60,7 +60,7 @@ for (var role of Array.from(document.getElementsByClassName("roleOption") as HTM
         changeColor(event, "rgb(25, 62, 104)");
     });
     role.addEventListener('mousedown', (event) => {
-        changeColor(event, "rgb(38, 39, 39)");
+        changeColor(event, "rgb(39, 39, 39)");
     });
 }
 

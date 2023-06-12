@@ -1,7 +1,7 @@
 export const kGamesFeatures = new Map<number, string[]>([
   // Omega Strikers
   [
-    228241,
+    22824,
     [
       'game_info',
       'match_info'
