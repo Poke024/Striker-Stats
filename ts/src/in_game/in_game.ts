@@ -9,6 +9,30 @@ import { kHotkeys, kWindowNames, kGamesFeatures } from "../consts";
 
 import WindowState = overwolf.windows.WindowStateEx;
 
+import { ScreenshotReader } from "./ocr";
+const reader : ScreenshotReader = new ScreenshotReader();
+await reader.set_workers(8);
+
+const infoLog = document.getElementById('infoLog');
+// Appends a new line to the specified log
+async function logLine(log: HTMLElement, data, highlight) {
+  const line = document.createElement('pre');
+  line.textContent = JSON.stringify(data);
+
+  if (highlight) {
+    line.className = 'highlight';
+  }
+
+  // Check if scroll is near bottom
+  const shouldAutoScroll =
+    log.scrollTop + log.offsetHeight >= log.scrollHeight - 10;
+
+  log.appendChild(line);
+
+  if (shouldAutoScroll) {
+    log.scrollTop = log.scrollHeight;
+  }
+}
 // The window displayed in-game while a game is running.
 // It listens to all info events and to the game events listed in the consts.ts file
 // and writes them to the relevant log using <pre> tags.
@@ -16,6 +40,7 @@ import WindowState = overwolf.windows.WindowStateEx;
 // Like the background window, it also implements the Singleton design pattern.
 class InGame extends AppWindow {
   private static _instance: InGame;
+  private _gameListener: OWGames;
   private _gameEventsListener: OWGamesEvents;
   private _eventsLog: HTMLElement;
   private _infoLog: HTMLElement;
@@ -105,24 +130,62 @@ class InGame extends AppWindow {
       }
     }
 
+    const get_set_awakenings = async (
+      hotkeyResult: overwolf.settings.hotkeys.OnPressedEvent
+    ): Promise<void> => {
+      var urls : Array<string> = new Array(0);
+      console.log(`pressed hotkey for ${hotkeyResult.name}`);
+      for (let i = 0; i < 2; i++) {
+        let y_coord : number = 500 + (295 * i)
+        for (let j = 0; j < 4; j++) {
+          let x_coord : number = 365 + (305 * j);
+          overwolf.media.getScreenshotUrl(
+            {
+              roundAwayFromZero: true,
+              crop: {
+                x: x_coord,
+                y: y_coord,
+                width: 275,
+                height: 50
+              },
+              rescale: {
+                width: 270,
+                height: 50
+              }
+            },
+            async function(result) {
+              if(result.url === 'undefined') {
+                console.log(result);
+                return;
+              }
+
+              console.log(result.url);
+              let results = await reader.run_single(result.url)
+              logLine(infoLog, results, false);
+              // (document.getElementById("testImgOne") as HTMLImageElement).src = result.url;
+            }
+          )
+        }
+      }
+    }
     OWHotkeys.onHotkeyDown(kHotkeys.toggle, toggleInGameWindow);
+    OWHotkeys.onHotkeyDown(kHotkeys.capture, get_set_awakenings)
   }
 
-  // Appends a new line to the specified log
   private logLine(log: HTMLElement, data, highlight) {
     const line = document.createElement('pre');
     line.textContent = JSON.stringify(data);
-
+  
     if (highlight) {
       line.className = 'highlight';
     }
-
+  
     // Check if scroll is near bottom
     const shouldAutoScroll =
       log.scrollTop + log.offsetHeight >= log.scrollHeight - 10;
-
+  
     log.appendChild(line);
-
+  
     if (shouldAutoScroll) {
       log.scrollTop = log.scrollHeight;
     }

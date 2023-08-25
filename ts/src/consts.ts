@@ -17,5 +17,6 @@ export const kWindowNames = {
 };
 
 export const kHotkeys = {
-  toggle: 'striker_sets_ts_showhide'
+  toggle: 'striker_sets_ts_showhide',
+  capture: 'strikers_sets_ts_capture'
 };

@@ -1,0 +1,4599 @@
+{
+    "Name": {
+        "name": "Name",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "",
+                "types": [
+                ],
+                "description": "",
+                "cooldown": 0,
+                "core_knockback": [
+                    0,
+                    0
+                ],
+                "player_knockback": [
+                    0,
+                    0
+                ],
+                "damage": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "",
+                "types": [
+                ],
+                "description": "",
+                "cooldown": 0,
+                "core_knockback": [
+                    0,
+                    0
+                ],
+                "player_knockback": [
+                    0,
+                    0
+                ],
+                "damage": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "",
+                "types": [
+                ],
+                "description": "",
+                "cooldown": 0,
+                "core_knockback": [
+                    0,
+                    0
+                ],
+                "player_knockback": [
+                    0,
+                    0
+                ],
+                "damage": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            },
+            "GOALIE": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                ],
+                "BIS": [
+                ],
+                "A": [
+                ],
+                "B": [
+                ],
+                "LR": [
+                ],
+                "DNT": [
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                ],
+                "BIS": [
+                ],
+                "A": [
+                ],
+                "B": [
+                ],
+                "LR": [
+                ],
+                "DNT": [
+                ]
+            }
+        }
+    },
+    "AiMi": {
+        "name": "AiMi",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "Glitch.Pop",
+                "types": [
+                    "IMPACT",
+                    "PROJECTILE"
+                ],
+                "description": "Launch a glitch orb that grows as it travels. The orb bursts on recast or max range, hitting enemies away from its center point.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Cyber Swipe",
+                "types": [
+                    "TELEPORT",
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Blink to a location. On arrival, swipe enemies in an arc with your tail.",
+                "cooldown": 14,
+                "core_knockback": [
+                    1315,
+                    192
+                ],
+                "player_knockback": [
+                    210,
+                    104
+                ],
+                "damage": [
+                    210,
+                    104
+                ]
+            },
+            {
+                "name": "Firewall Sentry",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Summon a turret that launches a firewall of technostatic in a fixed direction. Each bolt hits the first enemy struck.",
+                "cooldown": 30,
+                "core_knockback": [
+                    819,
+                    91
+                ],
+                "player_knockback": [
+                    140,
+                    69
+                ],
+                "damage": [
+                    140,
+                    69
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "BIS",
+                "BIG FISH": "LR",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "DNT",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "A",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "B",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "DNT",
+                "PERFECT FORM": "B",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "DNT",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "LR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "DNT",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "BIS",
+                "UNSTOPPABLE": "LR"
+            },
+            "GOALIE": {
+                "AERIALS": "B",
+                "BIG FISH": "LR",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "DNT",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "A",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "BIS",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "B",
+                "ONE TWO PUNCH": "B",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "A",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "LR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "DNT",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "DNT",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "BIS",
+                "UNSTOPPABLE": "LR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "MAGNETIZED SOLES"
+                ],
+                "BIS": [
+                    "AERIALS",
+                    "TIMELESS CREATOR",
+                    "PRIMETIME",
+                    "TWIN DRIVE",
+                    "STINGER"
+                ],
+                "A": [
+                    "DEADEYE",
+                    "SUPER SURGE",
+                    "ONE TWO PUNCH",
+                    "MISSILE PROPULSION",
+                    "EXTRA SPECIAL",
+                    "BUILT DIFFERENT",
+                    "RAPID FIRE"
+                ],
+                "B": [
+                    "HOTSHOT",
+                    "GLASS CANNON",
+                    "QUICK STRIKE",
+                    "HEAVY IMPACT",
+                    "MONUMENTALIST",
+                    "STACKS ON STACKS",
+                    "PERFECT FORM",
+                    "SPECIALIZED TRAINING"
+                ],
+                "LR": [
+                    "ADRENALINE RUSH",
+                    "BIG FISH",
+                    "UNSTOPPABLE",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "SPARK OF STRENGTH",
+                    "CHRONOBOOST",
+                    "STAGGER SWAGGER"
+                ],
+                "DNT": [
+                    "TEMPO SWING",
+                    "CAST TO LAST",
+                    "BULK UP",
+                    "PRIZE FIGHTER",
+                    "PEAK PERFORMANCE",
+                    "SPARK OF RESILIENCE"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "STRIKE SHOT"
+                ],
+                "BIS": [
+                    "TIMELESS CREATOR",
+                    "EXTRA SPECIAL",
+                    "STINGER",
+                    "GLASS CANNON",
+                    "PRIMETIME"
+                ],
+                "A": [
+                    "TWIN DRIVE",
+                    "DEADEYE",
+                    "MISSILE PROPULSION",
+                    "PERFECT FORM",
+                    "STACKS ON STACKS",
+                    "BUILT DIFFERENT",
+                    "RAPID FIRE"
+                ],
+                "B": [
+                    "SPECIALIZED TRAINING",
+                    "AERIALS",
+                    "ONE TWO PUNCH",
+                    "SUPER SURGE",
+                    "HOTSHOT",
+                    "QUICK STRIKE",
+                    "MONUMENTALIST",
+                    "HEAVY IMPACT"
+                ],
+                "LR": [
+                    "ADRENALINE RUSH",
+                    "BIG FISH",
+                    "PEAK PERFORMANCE",
+                    "SPARK OF AGILITY",
+                    "UNSTOPPABLE",
+                    "SPARK OF FOCUS",
+                    "SPARK OF STRENGTH",
+                    "CHRONOBOOST",
+                    "PRIZE FIGHTER"
+                ],
+                "DNT": [
+                    "STAGGER SWAGGER",
+                    "TEMPO SWING",
+                    "CAST TO LAST",
+                    "BULK UP",
+                    "SPARK OF RESILIENCE"
+                ]
+            }
+        }
+    },
+    "Asher": {
+        "name": "Asher",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Barrier Beam",
+                "types": [
+                    "MELEE",
+                    "IMPACT",
+                    "CREATION"
+                ],
+                "description": "Create a barrier while firing a blast that knocks away enemies near its center but deals a LIGHT hit to others. The barrier deals LIGHT hits and breaks when it touches an enemy. If cast on your side of the field, the barrier is larger and unbreakable.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1380,
+                    200
+                ],
+                "player_knockback": [
+                    200,
+                    100
+                ],
+                "damage": [
+                    200,
+                    100
+                ]
+            },
+            {
+                "name": "Breakthrough",
+                "types": [
+                    "DASH",
+                    "MELEE",
+                    "BUFF"
+                ],
+                "description": "Gain a defensive buff and charge forward, stopping on the first enemy hit and knocking nearby enemies back. The buff grants 30% knockback resistance and 25% damage reduction for 5s but loses its effects if you are staggered.",
+                "cooldown": 18,
+                "core_knockback": [
+                    1240,
+                    129
+                ],
+                "player_knockback": [
+                    130,
+                    64
+                ],
+                "damage": [
+                    130,
+                    64
+                ]
+            },
+            {
+                "name": "Pathsplitter",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Combine both shields and launch them forward. If they hit an enemy, they expand into a slow-moving, destructible barrier that can repeatedly hit enemies. Deals reduced damage after the first hit.",
+                "cooldown": 35,
+                "core_knockback": [
+                    793,
+                    36
+                ],
+                "player_knockback": [
+                    130,
+                    64
+                ],
+                "damage": [
+                    120,
+                    60
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "LR",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "B",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "DNT",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "B",
+                "ONE TWO PUNCH": "B",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "A",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "DNT",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "BIS",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "A",
+                "TIMELESS CREATOR": "B",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "A",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "LR",
+                "UNSTOPPABLE": "A"
+            },
+            "GOALIE": {
+                "AERIALS": "LR",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "B",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "DNT",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "B",
+                "ONE TWO PUNCH": "B",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "A",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "DNT",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "BIS",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "A",
+                "TIMELESS CREATOR": "B",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "A",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "LR",
+                "UNSTOPPABLE": "A"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "VICIOUS VAMBRACES",
+                    "MAGNETIZED SOLES"
+                ],
+                "BIS": [
+                    "BUILT DIFFERENT",
+                    "BIG FISH",
+                    "PRIMETIME",
+                    "STAGGER SWAGGER",
+                    "QUICK STRIKE"
+                ],
+                "A": [
+                    "TEMPO SWING",
+                    "STACKS ON STACKS",
+                    "RAPID FIRE",
+                    "UNSTOPPABLE",
+                    "HOTSHOT",
+                    "PERFECT FORM",
+                    "TWIN DRIVE",
+                    "HEAVY IMPACT",
+                    "SPARK OF AGILITY"
+                ],
+                "B": [
+                    "PEAK PERFORMANCE",
+                    "BULK UP",
+                    "TIMELESS CREATOR",
+                    "MONUMENTALIST",
+                    "ONE TWO PUNCH",
+                    "GLASS CANNON",
+                    "SPECIALIZED TRAINING",
+                    "EXTRA SPECIAL"
+                ],
+                "LR": [
+                    "SPARK OF STRENGTH",
+                    "ADRENALINE RUSH",
+                    "SUPER SURGE",
+                    "SPARK OF FOCUS",
+                    "STINGER",
+                    "AERIALS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "CHRONOBOOST",
+                    "CAST TO LAST",
+                    "MISSILE PROPULSION",
+                    "PRIZE FIGHTER"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "POWERHOUSE PAULDRONS",
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT"
+                ],
+                "BIS": [
+                    "BUILT DIFFERENT",
+                    "BIG FISH",
+                    "PRIMETIME",
+                    "STAGGER SWAGGER",
+                    "QUICK STRIKE"
+                ],
+                "A": [
+                    "TEMPO SWING",
+                    "STACKS ON STACKS",
+                    "RAPID FIRE",
+                    "UNSTOPPABLE",
+                    "HOTSHOT",
+                    "PERFECT FORM",
+                    "TWIN DRIVE",
+                    "HEAVY IMPACT",
+                    "SPARK OF AGILITY"
+                ],
+                "B": [
+                    "PEAK PERFORMANCE",
+                    "BULK UP",
+                    "TIMELESS CREATOR",
+                    "MONUMENTALIST",
+                    "ONE TWO PUNCH",
+                    "GLASS CANNON",
+                    "SPECIALIZED TRAINING",
+                    "EXTRA SPECIAL"
+                ],
+                "LR": [
+                    "SPARK OF STRENGTH",
+                    "ADRENALINE RUSH",
+                    "SUPER SURGE",
+                    "SPARK OF FOCUS",
+                    "STINGER",
+                    "AERIALS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "CHRONOBOOST",
+                    "CAST TO LAST",
+                    "MISSILE PROPULSION",
+                    "PRIZE FIGHTER"
+                ]
+            }
+        }
+    },
+    "Atlas": {
+        "name": "Atlas",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Astral Projection",
+                "types": [
+                    "PROJECTILE"
+                ],
+                "description": "Launch a decelerating arc barrier that deals a single hit to each enemy it collides with.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1320,
+                    170
+                ],
+                "player_knockback": [
+                    170,
+                    85
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Cosmic Expanse",
+                "types": [
+                    "CREATION"
+                ],
+                "description": "Construct an expanding ring of light that quickly vanishes. The ring will persist and begin to shrink if it hits any enemies, dealing subsequent hits to enemies who collide with it.",
+                "cooldown": 22,
+                "core_knockback": [
+                    1340,
+                    179
+                ],
+                "player_knockback": [
+                    180,
+                    89
+                ],
+                "damage": [
+                    180,
+                    89
+                ]
+            },
+            {
+                "name": "Celestial Intervention",
+                "types": [
+                    "CREATION"
+                ],
+                "description": "Summon a celestial guardian that continuously heals nearby allies. The guardian rescues any ally that would be K.O.'d, transporting them to its location and restoring 25% of their Stagger bar",
+                "cooldown": 45,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "B",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "LR",
+                "CAST TO LAST": "LR",
+                "CATALYST": "LR",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "DNT",
+                "EGOIST": "BIS",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "A",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "BIS",
+                "ORB PONDERER": "B",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "BIS",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "B",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "LR",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "DNT",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "A",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "B",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "LR",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "B",
+                "CATALYST": "B",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "BIS",
+                "ORB REPLICATOR": "A",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "LR",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "DNT",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "MAGNETIZED SOLES",
+                    "PUMMELERS"
+                ],
+                "BIS": [
+                    "STACKS ON STACKS",
+                    "EGOIST",
+                    "BIG FISH",
+                    "PEAK PERFORMANCE",
+                    "ORB DANCER"
+                ],
+                "A": [
+                    "SPARK OF AGILITY",
+                    "HOTSHOT",
+                    "TIMELESS CREATOR",
+                    "GLASS CANNON",
+                    "QUICK STRIKE",
+                    "MISSILE PROPULSION",
+                    "FIRE UP",
+                    "BUILT DIFFERENT"
+                ],
+                "B": [
+                    "ORB PONDERER",
+                    "MONUMENTALIST",
+                    "EXTRA SPECIAL",
+                    "TWIN DRIVE",
+                    "PRIMETIME",
+                    "RAPID FIRE",
+                    "AERIALS",
+                    "ORB REPLICATOR"
+                ],
+                "LR": [
+                    "CAST TO LAST",
+                    "HEAVY IMPACT",
+                    "CATALYST",
+                    "SPECIALIZED TRAINING",
+                    "REVERBERATION",
+                    "SPARK OF FOCUS",
+                    "BULK UP",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF RESILIENCE",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "SUPER SURGE",
+                    "CHRONOBOOST",
+                    "DEADEYE"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "STRIKE SHOT",
+                    "MOMENTUM BOOTS",
+                    "POWERHOUSE PAULDRONS",
+                    "EJECT BUTTON"
+                ],
+                "BIS": [
+                    "TWIN DRIVE",
+                    "ORB PONDERER",
+                    "PRIMETIME",
+                    "STACKS ON STACKS",
+                    "TIMELESS CREATOR"
+                ],
+                "A": [
+                    "HOTSHOT",
+                    "GLASS CANNON",
+                    "MONUMENTALIST",
+                    "ORB DANCER",
+                    "ORB REPLICATOR",
+                    "RAPID FIRE",
+                    "EXTRA SPECIAL",
+                    "FIRE UP"
+                ],
+                "B": [
+                    "BIG FISH",
+                    "QUICK STRIKE",
+                    "PEAK PERFORMANCE",
+                    "CATALYST",
+                    "BUILT DIFFERENT",
+                    "CAST TO LAST",
+                    "MISSILE PROPULSION",
+                    "HEAVY IMPACT",
+                    "SPARK OF AGILITY",
+                    "EGOIST"
+                ],
+                "LR": [
+                    "SPECIALIZED TRAINING",
+                    "AERIALS",
+                    "REVERBERATION",
+                    "SPARK OF FOCUS",
+                    "BULK UP",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "SUPER SURGE",
+                    "CHRONOBOOST",
+                    "DEADEYE",
+                    "TEMPO SWING"
+                ]
+            }
+        }
+    },
+    "Drekar": {
+        "name": "Drekar",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Lock and Load",
+                "types": [
+                    "MELEE",
+                    "IMPACT",
+                    "PROJECTILE"
+                ],
+                "description": "Blast nearby enemies with a powerful cone of energy that extends into LIGHT hit bullets. 2 charges.",
+                "cooldown": 7.5,
+                "core_knockback": [
+                    1320,
+                    170
+                ],
+                "player_knockback": [
+                    170,
+                    85
+                ],
+                "damage": [
+                    170,
+                    65
+                ]
+            },
+            {
+                "name": "Xeno Cloak",
+                "types": [
+                    "HASTE"
+                ],
+                "description": "Become invisible and gain 50% Speed for 1s.",
+                "cooldown": 12,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            },
+            {
+                "name": "Molten Bolt",
+                "types": [
+                    "PROJECTILE",
+                    "DEBUFF"
+                ],
+                "description": "Launch a sticky bomb that hits and burns the first enemy struck for 2.5s, slowing and damaging them over time. The effect can spread to nearby enemies.",
+                "cooldown": 30,
+                "core_knockback": [
+                    1400,
+                    209
+                ],
+                "player_knockback": [
+                    120,
+                    60
+                ],
+                "damage": [
+                    60,
+                    30
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "BIS",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "LR",
+                "CAST TO LAST": "A",
+                "CATALYST": "B",
+                "CHRONOBOOST": "",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "B",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "BIS",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "LR",
+                "CAST TO LAST": "A",
+                "CATALYST": "B",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "B",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "BIS",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "MAGNETIZED SOLES",
+                    "SIPHONING WAND",
+                    "PUMMELERS",
+                    "SLICK KICKS"
+                ],
+                "BIS": [
+                    "MISSILE PROPULSION",
+                    "HEAVY IMPACT",
+                    "PRIMETIME",
+                    "AERIALS",
+                    "RAPID FIRE"
+                ],
+                "A": [
+                    "BUILT DIFFERENT",
+                    "CHRONOBOOST",
+                    "HOTSHOT",
+                    "STACKS ON STACKS",
+                    "BIG FISH",
+                    "CAST TO LAST",
+                    "EXTRA SPECIAL",
+                    "ORB DANCER",
+                    "ORB PONDERER"
+                ],
+                "B": [
+                    "SPECIALIZED TRAINING",
+                    "FIRE UP",
+                    "QUICK STRIKE",
+                    "GLASS CANNON",
+                    "EGOIST",
+                    "PEAK PERFORMANCE",
+                    "TWIN DRIVE",
+                    "CATALYST"
+                ],
+                "LR": [
+                    "REVERBERATION",
+                    "BULK UP",
+                    "ORB REPLICATOR",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF RESILIENCE",
+                    "SUPER SURGE",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "STRIKE SHOT",
+                    "POWERHOUSE PAULDRONS",
+                    "EJECT BUTTON",
+                    "MOMENTUM BOOTS"
+                ],
+                "BIS": [
+                    "MISSILE PROPULSION",
+                    "HOTSHOT",
+                    "PRIMETIME",
+                    "RAPID FIRE",
+                    "HEAVY IMPACT"
+                ],
+                "A": [
+                    "AERIALS",
+                    "GLASS CANNON",
+                    "CHRONOBOOST",
+                    "BUILT DIFFERENT",
+                    "STACKS ON STACKS",
+                    "CAST TO LAST",
+                    "BIG FISH",
+                    "EXTRA SPECIAL",
+                    "ORB PONDERER",
+                    "FIRE UP"
+                ],
+                "B": [
+                    "SPECIALIZED TRAINING",
+                    "ORB REPLICATOR",
+                    "ORB DANCER",
+                    "TWIN DRIVE",
+                    "DEADEYE",
+                    "QUICK STRIKE",
+                    "CATALYST",
+                    "EGOIST",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS"
+                ],
+                "LR": [
+                    "PEAK PERFORMANCE",
+                    "REVERBERATION",
+                    "SPARK OF STRENGTH",
+                    "BULK UP",
+                    "SPARK OF RESILIENCE",
+                    "SUPER SURGE",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            }
+        }
+    },
+    "Dubu": {
+        "name": "Dubu",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Rollout",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Wind up and roll a decelerating bamboo log that hits and breaks on the first enemy hit.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1340,
+                    179
+                ],
+                "player_knockback": [
+                    180,
+                    89
+                ],
+                "damage": [
+                    180,
+                    89
+                ]
+            },
+            {
+                "name": "Somerassault",
+                "types": [
+                    "DASH",
+                    "MELEE",
+                    "IMPACT",
+                    "DEBUFF"
+                ],
+                "description": "Roll in a direction. At max range or on impact with an enemy, smash nearby enemies, stunning them.",
+                "cooldown": 18,
+                "core_knockback": null,
+                "player_knockback": [
+                    210,
+                    105
+                ],
+                "damage": [
+                    210,
+                    105
+                ]
+            },
+            {
+                "name": "Tofu Fortress",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Serve up an arc of tofu plates that hit enemies and leave impassable terrain where they end.",
+                "cooldown": 18,
+                "core_knockback": [
+                    1340,
+                    179
+                ],
+                "player_knockback": [
+                    180,
+                    89
+                ],
+                "damage": [
+                    180,
+                    89
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "LR",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "B",
+                "CAST TO LAST": "A",
+                "CATALYST": "BIS",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "DNT",
+                "EGOIST": "A",
+                "EXTRA SPECIAL": "BIS",
+                "FIRE UP": "A",
+                "GLASS CANNON": "LR",
+                "HEAVY IMPACT": "DNT",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "B",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "B",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "A",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "B",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "B",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "A",
+                "CATALYST": "B",
+                "CHRONOBOOST": "B",
+                "DEADEYE": "LR",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "BIS",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "B",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "A",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "LR",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "PUMMELERS"
+                ],
+                "BIS": [
+                    "CATALYST",
+                    "QUICK STRIKE",
+                    "BIG FISH",
+                    "EXTRA SPECIAL",
+                    "STACKS ON STACKS"
+                ],
+                "A": [
+                    "TIMELESS CREATOR",
+                    "EGOIST",
+                    "FIRE UP",
+                    "PEAK PERFORMANCE",
+                    "SPARK OF AGILITY",
+                    "BUILT DIFFERENT",
+                    "CAST TO LAST",
+                    "ORB DANCER",
+                    "CHRONOBOOST",
+                    "MONUMENTALIST"
+                ],
+                "B": [
+                    "MISSILE PROPULSION",
+                    "SPECIALIZED TRAINING",
+                    "HOTSHOT",
+                    "RAPID FIRE",
+                    "TWIN DRIVE",
+                    "PRIMETIME",
+                    "REVERBERATION",
+                    "BULK UP",
+                    "SPARK OF RESILIENCE"
+                ],
+                "LR": [
+                    "SPARK OF FOCUS",
+                    "SPARK OF STRENGTH",
+                    "AERIALS",
+                    "ORB REPLICATOR",
+                    "SUPER SURGE",
+                    "ORB PONDERER",
+                    "GLASS CANNON"
+                ],
+                "DNT": [
+                    "TEMPO SWING",
+                    "DEADEYE",
+                    "HEAVY IMPACT"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT",
+                    "POWERHOUSE PAULDRONS"
+                ],
+                "BIS": [
+                    "STACKS ON STACKS",
+                    "GLASS CANNON",
+                    "TIMELESS CREATOR",
+                    "FIRE UP",
+                    "PRIMETIME"
+                ],
+                "A": [
+                    "HOTSHOT",
+                    "ORB REPLICATOR",
+                    "ORB DANCER",
+                    "ORB PONDERER",
+                    "QUICK STRIKE",
+                    "CAST TO LAST",
+                    "EXTRA SPECIAL",
+                    "MISSILE PROPULSION",
+                    "RAPID FIRE"
+                ],
+                "B": [
+                    "CATALYST",
+                    "MONUMENTALIST",
+                    "AERIALS",
+                    "SPARK OF AGILITY",
+                    "PEAK PERFORMANCE",
+                    "EGOIST",
+                    "BUILT DIFFERENT",
+                    "BIG FISH",
+                    "TWIN DRIVE",
+                    "CHRONOBOOST"
+                ],
+                "LR": [
+                    "SPARK OF FOCUS",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF STRENGTH",
+                    "SPECIALIZED TRAINING",
+                    "HEAVY IMPACT",
+                    "BULK UP",
+                    "DEADEYE",
+                    "SUPER SURGE"
+                ],
+                "DNT": [
+                    "TEMPO SWING"
+                ]
+            }
+        }
+    },
+    "Era": {
+        "name": "Era",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Bewitching Beam",
+                "types": [
+                    "IMPACT",
+                    "BUFF",
+                    "DEBUFF"
+                ],
+                "description": "Bewitch allies and enemies in a line. Enemies are reduced in Size, Speed, and Power. Allies gain Size and Power.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1280,
+                    150
+                ],
+                "player_knockback": [
+                    150,
+                    75
+                ],
+                "damage": [
+                    150,
+                    75
+                ]
+            },
+            {
+                "name": "Flutter Fly",
+                "types": [
+                    "HASTE",
+                    "BUFF"
+                ],
+                "description": "Empower nearby allies with 60% Speed that decays over 2.5s",
+                "cooldown": 18,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            },
+            {
+                "name": "Magic Maelstrom",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Conjure a growing maelstrom. On recast or after a few seconds, launch the maelstrom, hitting all enemies in its path. If released before full size, it has reduced range and deals LIGHT hits.",
+                "cooldown": 20,
+                "core_knockback": [
+                    832,
+                    48
+                ],
+                "player_knockback": [
+                    150,
+                    75
+                ],
+                "damage": [
+                    150,
+                    75
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "A",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "B",
+                "CHRONOBOOST": "BIS",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "DNT",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "BIS",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "B",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "DNT",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "LR",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "LR",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "BIS",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "BIS",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "A",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "MAGNETIZED SOLES",
+                    "SLICK KICKS"
+                ],
+                "BIS": [
+                    "CAST TO LAST",
+                    "CHRONOBOOST",
+                    "PRIMETIME",
+                    "RAPID FIRE",
+                    "MONUMENTALIST"
+                ],
+                "A": [
+                    "STACKS ON STACKS",
+                    "AERIALS",
+                    "EXTRA SPECIAL",
+                    "QUICK STRIKE",
+                    "BIG FISH",
+                    "PEAK PERFORMANCE",
+                    "TIMELESS CREATOR",
+                    "TWIN DRIVE",
+                    "ORB DANCER",
+                    "FIRE UP"
+                ],
+                "B": [
+                    "ORB PONDERER",
+                    "HOTSHOT",
+                    "BUILT DIFFERENT",
+                    "MISSILE PROPULSION",
+                    "EGOIST",
+                    "GLASS CANNON",
+                    "SPARK OF AGILITY",
+                    "CATALYST"
+                ],
+                "LR": [
+                    "SPARK OF FOCUS",
+                    "SUPER SURGE",
+                    "ORB REPLICATOR",
+                    "BULK UP",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF STRENGTH"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "TEMPO SWING",
+                    "HEAVY IMPACT",
+                    "SPECIALIZED TRAINING"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT",
+                    "EJECT BUTTON"
+                ],
+                "BIS": [
+                    "PRIMETIME",
+                    "ORB DANCER",
+                    "CAST TO LAST",
+                    "STACKS ON STACKS",
+                    "MONUMENTALIST"
+                ],
+                "A": [
+                    "ORB PONDERER",
+                    "EXTRA SPECIAL",
+                    "CHRONOBOOST",
+                    "PEAK PERFORMANCE",
+                    "TIMELESS CREATOR",
+                    "BIG FISH",
+                    "BUILT DIFFERENT",
+                    "AERIALS",
+                    "ORB REPLICATOR",
+                    "FIRE UP"
+                ],
+                "B": [
+                    "TWIN DRIVE",
+                    "HOTSHOT",
+                    "RAPID FIRE",
+                    "MISSILE PROPULSION",
+                    "QUICK STRIKE",
+                    "GLASS CANNON",
+                    "SUPER SURGE",
+                    "HEAVY IMPACT",
+                    "EGOIST",
+                    "SPECIALIZED TRAINING"
+                ],
+                "LR": [
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "BULK UP",
+                    "REVERBERATION",
+                    "CATALYST",
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF STRENGTH"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "TEMPO SWING"
+                ]
+            }
+        }
+    },
+    "Estelle": {
+        "name": "Estelle",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "Piercing Shot",
+                "types": [
+                    "IMPACT"
+                ],
+                "description": "Take aim and unleash crystalline energy at all enemies in a long line.",
+                "cooldown": 10,
+                "core_knockback": [
+                    1340,
+                    179
+                ],
+                "player_knockback": [
+                    1280,
+                    150
+                ],
+                "damage": [
+                    180,
+                    89
+                ]
+            },
+            {
+                "name": "Rose Warp",
+                "types": [
+                    "TELEPORT",
+                    "PROJECTILE"
+                ],
+                "description": "Blink to a nearby location, then fire a crystal thorn at the nearest enemy.",
+                "cooldown": 15,
+                "core_knockback": [
+                    1280,
+                    150
+                ],
+                "player_knockback": [
+                    150,
+                    75
+                ],
+                "damage": [
+                    150,
+                    75
+                ]
+            },
+            {
+                "name": "Crystal Thorns",
+                "types": [
+                    "PROJECTILE"
+                ],
+                "description": "Fire a volley of LIGHT [hit] crystal thorns in an arc.",
+                "cooldown": 20,
+                "core_knockback": [
+                    1240,
+                    129
+                ],
+                "player_knockback": [
+                    130,
+                    64
+                ],
+                "damage": [
+                    130,
+                    64
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "BIS",
+                "BIG FISH": "LR",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "B",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "BIS",
+                "EGOIST": "A",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "B",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "BIS",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "LR",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "LR",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "A",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "A",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "B",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "BIS",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "BIS",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "LR",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "MAGNETIZED SOLES",
+                    "SLICK KICKS",
+                    "PUMMELERS",
+                    "SIPHONING WAND"
+                ],
+                "BIS": [
+                    "PRIMETIME",
+                    "AERIALS",
+                    "DEADEYE",
+                    "HOTSHOT",
+                    "MISSILE PROPULSION"
+                ],
+                "A": [
+                    "HEAVY IMPACT",
+                    "RAPID FIRE",
+                    "TWIN DRIVE",
+                    "SUPER SURGE",
+                    "GLASS CANNON",
+                    "EXTRA SPECIAL",
+                    "ORB PONDERER",
+                    "EGOIST"
+                ],
+                "B": [
+                    "BUILT DIFFERENT",
+                    "STACKS ON STACKS",
+                    "ORB DANCER",
+                    "SPARK OF AGILITY",
+                    "FIRE UP",
+                    "CATALYST",
+                    "SPARK OF FOCUS",
+                    "SPARK OF STRENGTH",
+                    "QUICK STRIKE",
+                    "PEAK PERFORMANCE"
+                ],
+                "LR": [
+                    "CHRONOBOOST",
+                    "SPECIALIZED TRAINING",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE",
+                    "ORB REPLICATOR",
+                    "BIG FISH",
+                    "BULK UP",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "TIMELESS CREATOR",
+                    "CAST TO LAST",
+                    "MONUMENTALIST"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "STRIKE SHOT",
+                    "MOMENTUM BOOTS",
+                    "EJECT BUTTON",
+                    "POWERHOUSE PAULDRONS"
+                ],
+                "BIS": [
+                    "PRIMETIME",
+                    "HOTSHOT",
+                    "GLASS CANNON",
+                    "MISSILE PROPULSION",
+                    "ORB PONDERER"
+                ],
+                "A": [
+                    "TWIN DRIVE",
+                    "RAPID FIRE",
+                    "AERIALS",
+                    "HEAVY IMPACT",
+                    "DEADEYE",
+                    "BUILT DIFFERENT",
+                    "STACKS ON STACKS",
+                    "CAST TO LAST"
+                ],
+                "B": [
+                    "ORB REPLICATOR",
+                    "SUPER SURGE",
+                    "EXTRA SPECIAL",
+                    "ORB DANCER",
+                    "EGOIST",
+                    "SPARK OF AGILITY",
+                    "BIG FISH",
+                    "PEAK PERFORMANCE"
+                ],
+                "LR": [
+                    "SPARK OF STRENGTH",
+                    "BULK UP",
+                    "QUICK STRIKE",
+                    "SPARK OF FOCUS",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE",
+                    "SPECIALIZED TRAINING",
+                    "CHRONOBOOST",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "TIMELESS CREATOR",
+                    "CAST TO LAST",
+                    "MONUMENTALIST"
+                ]
+            }
+        }
+    },
+    "Finii": {
+        "name": "Finii",
+        "stats_tier": 2,
+        "abilities": [
+            {
+                "name": "Misdirection",
+                "types": [
+                    "PROJECTILE"
+                ],
+                "description": "Launch a decelerating projectile that hits the first enemy struck. After reaching its apex, it rapidly reverses course and hits harder.",
+                "cooldown": 7,
+                "core_knockback": [
+                    1230,
+                    125
+                ],
+                "player_knockback": [
+                    125,
+                    62.5
+                ],
+                "damage": [
+                    125,
+                    62.5
+                ]
+            },
+            {
+                "name": "Double Take",
+                "types": [
+                    "IMPACT",
+                    "DEBUFF"
+                ],
+                "description": "Deploy a poof of smoke at a target location, dealing a LIGHT hit to enemies and causing them to take 30% more damage from all sources for 4s.",
+                "cooldown": 10,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Big Finish",
+                "types": [
+                    "IMPACT",
+                    "CREATION"
+                ],
+                "description": "Conjure a gravity well at a target location, slowing and pulling enemies towards its center point. After 2.25s or upon recast, the well explodes, hitting enemies away.",
+                "cooldown": 35,
+                "core_knockback": [
+                    1500,
+                    425
+                ],
+                "player_knockback": [
+                    200,
+                    100
+                ],
+                "damage": [
+                    200,
+                    100
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            },
+            "GOALIE": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "BIS": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "A": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "B": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "LR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "DNT": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "BIS": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "A": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "B": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "LR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "DNT": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    },
+    "Juliette": {
+        "name": "Juliette",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Fiery Fist",
+                "types": [
+                    "",
+                    ""
+                ],
+                "description": "Punch all enemies in a line.",
+                "cooldown": 0,
+                "core_knockback": [
+                    0,
+                    0
+                ],
+                "player_knockback": [
+                    0,
+                    0
+                ],
+                "damage": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Flying Pheonix",
+                "types": [
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Dash in a direction, hitting all enemies in your path. Other abilities can be cast while dashing.",
+                "cooldown": 7,
+                "core_knockback": [
+                    1290,
+                    155
+                ],
+                "player_knockback": [
+                    155,
+                    75.5
+                ],
+                "damage": [
+                    155,
+                    75.5
+                ]
+            },
+            {
+                "name": "Flame Flurry",
+                "types": [
+                    "DASH",
+                    "MELEE"
+                ],
+                "description": "Deal a flurry of light jabs in an arc, culminating in [a] devastating roundhouse kick.",
+                "cooldown": 16,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "DNT",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "A",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "A",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "DNT",
+                "EGOIST": "A",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "B",
+                "GLASS CANNON": "LR",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "LR",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "LR",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "LR",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "B",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "A",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": null
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "MAGNETIZED SOLES",
+                    "PUMMELERS",
+                    "SIPHONING WAND",
+                    "VICIOUS VAMBRACES"
+                ],
+                "BIS": [
+                    "BUILT DIFFERENT",
+                    "HEAVY IMPACT",
+                    "BIG FISH",
+                    "STACKS ON STACKS",
+                    "QUICK STRIKE"
+                ],
+                "A": [
+                    "TEMPO SWING",
+                    "EGOIST",
+                    "BULK UP",
+                    "PEAK PERFORMANCE",
+                    "CATALYST",
+                    "QUICK STRIKE"
+                ],
+                "B": [
+                    "REVERBERATION",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF AGILITY",
+                    "SPECIALIZED TRAINING",
+                    "EXTRA SPECIAL",
+                    "TWIN DRIVE",
+                    "FIRE UP",
+                    "RAPID FIRE"
+                ],
+                "LR": [
+                    "SPARK OF FOCUS",
+                    "SPARK OF RESILIENCE",
+                    "PRIMETIME",
+                    "GLASS CANNON",
+                    "ORB DANCER",
+                    "ORB PONDERER",
+                    "ORB REPLICATOR",
+                    "HOTSHOT"
+                ],
+                "DNT": [
+                    "CAST TO LAST",
+                    "DEADEYE",
+                    "CHRONOBOOST",
+                    "AERIALS",
+                    "MONUMENTALIST",
+                    "MISSILE PROPULSION",
+                    "TIMELESS CREATOR"
+                ]
+            },
+            "GOALIE": null
+        }
+    },
+    "Juno": {
+        "name": "Juno",
+        "stats_tier": 2,
+        "abilities": [
+            {
+                "name": "Friend Fling",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION"
+                ],
+                "description": "Launch a blob that hits the first enemy struck and spawns a blob on impact or max range.",
+                "cooldown": 7,
+                "core_knockback": [
+                    1320,
+                    170
+                ],
+                "player_knockback": [
+                    170,
+                    85
+                ],
+                "damage": [
+                    170,
+                    85
+                ]
+            },
+            {
+                "name": "Blob Bounce",
+                "types": [
+                    "DASH",
+                    "CREATION"
+                ],
+                "description": "Spawn a blob at your feet and hop to a location, becoming Elusive while airborne. Elusive targets are invulnerable and untargetable.",
+                "cooldown": 10,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            },
+            {
+                "name": "Make it Rain",
+                "types": [
+                ],
+                "description": "Target an area and launch a massive blob cluster into the sky. After a delay the cluster splits, raining down blobs for each enemy in the target area, plus one at the center.",
+                "cooldown": 35,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "LR",
+                "BULK UP": "B",
+                "CAST TO LAST": "LR",
+                "CATALYST": "A",
+                "CHRONOBOOST": "B",
+                "DEADEYE": "BIS",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "DNT",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "LR",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "DNT",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "B",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "BIS",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "LR",
+                "BULK UP": "LR",
+                "CAST TO LAST": "LR",
+                "CATALYST": "B",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "B",
+                "EGOIST": "LR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "DNT",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "DNT",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "A",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "MAGNETIZED SOLES",
+                    "SIPHONING WAND",
+                    "PUMMELERS"
+                ],
+                "BIS": [
+                    "HOTSHOT",
+                    "PRIMETIME",
+                    "DEADEYE",
+                    "RAPID FIRE",
+                    "GLASS CANNON"
+                ],
+                "A": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR",
+                    "AERIALS",
+                    "CATALYST",
+                    "STACKS ON STACKS",
+                    "QUICK STRIKE",
+                    "FIRE UP",
+                    "EXTRA SPECIAL",
+                    "TWIN DRIVE"
+                ],
+                "B": [
+                    "TEMPO SWING",
+                    "BIG FISH",
+                    "BULK UP",
+                    "EGOIST",
+                    "SPARK OF AGILITY",
+                    "PEAK PERFORMANCE",
+                    "SUPER SURGE",
+                    "CHRONOBOOST"
+                ],
+                "LR": [
+                    "BUILT DIFFERENT",
+                    "CAST TO LAST",
+                    "REVERBERATION",
+                    "ORB PONDERER",
+                    "ORB REPLICATOR",
+                    "ORB DANCER",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF FOCUS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "HEAVY IMPACT",
+                    "MISSILE PROPULSION",
+                    "SPECIALIZED TRAINING"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "EJECT BUTTON",
+                    "STRIKE SHOT"
+                ],
+                "BIS": [
+                    "PRIMETIME",
+                    "HOTSHOT",
+                    "RAPID FIRE",
+                    "AERIALS",
+                    "STACKS ON STACKS"
+                ],
+                "A": [
+                    "TIMELESS CREATOR",
+                    "ORB PONDERER",
+                    "ORB DANCER",
+                    "GLASS CANNON",
+                    "SUPER SURGE",
+                    "CHRONOBOOST",
+                    "EXTRA SPECIAL",
+                    "TWIN DRIVE",
+                    "QUICK STRIKE",
+                    "FIRE UP"
+                ],
+                "B": [
+                    "MONUMENTALIST",
+                    "ORB REPLICATOR",
+                    "BIG FISH",
+                    "CATALYST",
+                    "MISSILE PROPULSION",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "PEAK PERFORMANCE",
+                    "DEADEYE"
+                ],
+                "LR": [
+                    "REVERBERATION",
+                    "EGOIST",
+                    "BUILT DIFFERENT",
+                    "CAST TO LAST",
+                    "BULK UP",
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF STRENGTH"
+                ],
+                "DNT": [
+                    "HEAVY IMPACT",
+                    "TEMPO SWING",
+                    "SPECIALIZED TRAINING"
+                ]
+            }
+        }
+    },
+    "Kai": {
+        "name": "Kai",
+        "stats_tier": 2,
+        "abilities": [
+            {
+                "name": "Barrage",
+                "types": [
+                ],
+                "description": "Launch a barrage of LIGHT [hitting] fireballs in a direction.",
+                "cooldown": 11,
+                "core_knockback": [
+                    700,
+                    32
+                ],
+                "player_knockback": [
+                    50,
+                    25
+                ],
+                "damage": [
+                    50,
+                    25
+                ]
+            },
+            {
+                "name": "Blazing Pace",
+                "types": [
+                ],
+                "description": "Gain 35% Speed for 4s",
+                "cooldown": 15,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            },
+            {
+                "name": "Giga Blast",
+                "types": [
+                ],
+                "description": "Launch a blazing fireball that detonates on impact with an enemy or wall, hitting enemies away from the blast's center point.",
+                "cooldown": 20,
+                "core_knockback": [
+                    1390,
+                    204
+                ],
+                "player_knockback": [
+                    220,
+                    110
+                ],
+                "damage": [
+                    220,
+                    110
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "BIS",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "A",
+                "CATALYST": "A",
+                "CHRONOBOOST": "BIS",
+                "DEADEYE": "B",
+                "EGOIST": "A",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "B",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "BIS",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "DNT",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "B",
+                "CATALYST": "A",
+                "CHRONOBOOST": "B",
+                "DEADEYE": "A",
+                "EGOIST": "LR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "A",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "BIS",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "A",
+                "ORB REPLICATOR": "A",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "BIS",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "BIS",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS"
+                ],
+                "BIS": [
+                    "CHRONOBOOST",
+                    "STACKS ON STACKS",
+                    "AERIALS",
+                    "QUICK STRIKE",
+                    "PRIMETIME"
+                ],
+                "A": [
+                    "CATALYST",
+                    "CAST TO LAST",
+                    "SPECIALIZED TRAINING",
+                    "EGOIST",
+                    "FIRE UP",
+                    "RAPID FIRE",
+                    "PEAK PERFORMANCE",
+                    "MISSILE PROPULSION",
+                    "EXTRA SPECIAL",
+                    "HOTSHOT"
+                ],
+                "B": [
+                    "TWIN DRIVE",
+                    "BIG FISH",
+                    "BUILT DIFFERENT",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "REVERBERATION",
+                    "DEADEYE",
+                    "ORB DANCER",
+                    "GLASS CANNON"
+                ],
+                "LR": [
+                    "SPARK OF RESILIENCE",
+                    "BULK UP",
+                    "ORB PONDERER",
+                    "ORB REPLICATOR",
+                    "HEAVY IMPACT",
+                    "SUPER SURGE"
+                ],
+                "DNT": [
+                    "SPARK OF STRENGTH",
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR",
+                    "TEMPO SWING"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT",
+                    "EJECT BUTTON"
+                ],
+                "BIS": [
+                    "PRIMETIME",
+                    "SPECIALIZED TRAINING",
+                    "MISSILE PROPULSION",
+                    "GLASS CANNON",
+                    "RAPID FIRE"
+                ],
+                "A": [
+                    "CATALYST",
+                    "DEADEYE",
+                    "HOTSHOT",
+                    "STACKS ON STACKS",
+                    "FIRE UP",
+                    "AERIALS",
+                    "ORB PONDERER",
+                    "ORB DANCER",
+                    "ORB REPLICATOR",
+                    "EXTRA SPECIAL"
+                ],
+                "B": [
+                    "HEAVY IMPACT",
+                    "CHRONOBOOST",
+                    "BUILT DIFFERENT",
+                    "CAST TO LAST",
+                    "BIG FISH",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF FOCUS",
+                    "QUICK STRIKE",
+                    "TWIN DRIVE",
+                    "SPARK OF AGILITY"
+                ],
+                "LR": [
+                    "EGOIST",
+                    "SUPER SURGE",
+                    "BULK UP",
+                    "PEAK PERFORMANCE",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "TEMPO SWING",
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            }
+        }
+    },
+    "Luna": {
+        "name": "Luna",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "W.H.A.M.M.Y.",
+                "types": [
+                    "PROJECTILE"
+                ],
+                "description": "Fire a rocket that deals a LIGHT hit on early impact. After a brief delay, it accelerates and hits much harder.",
+                "cooldown": 6.5,
+                "core_knockback": [
+                    1390,
+                    204
+                ],
+                "player_knockback": [
+                    220,
+                    110
+                ],
+                "damage": [
+                    220,
+                    110
+                ]
+            },
+            {
+                "name": "B.O.O.S.T.",
+                "types": [
+                    "DASH",
+                    "MELEE"
+                ],
+                "description": "Launch in a direction with limited ability to steer, only stopping upon collision with an enemy or terrain.",
+                "cooldown": 12,
+                "core_knockback": [
+                    1390,
+                    205
+                ],
+                "player_knockback": [
+                    220,
+                    110
+                ],
+                "damage": [
+                    220,
+                    110
+                ]
+            },
+            {
+                "name": "C.R.A.T.E.R.",
+                "types": [
+                    "IMPACT",
+                    "PROJECTILE"
+                ],
+                "description": "Drop a bomb at a location, hitting surrounding enemies. Enemies at the center are hit much harder.",
+                "cooldown": 35,
+                "core_knockback": [
+                    1470,
+                    245
+                ],
+                "player_knockback": [
+                    380,
+                    190
+                ],
+                "damage": [
+                    380,
+                    190
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "B",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "BIS",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "B",
+                "PRIMETIME": "A",
+                "PRIZE FIGHTER": "B",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "BIS",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "B",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "A",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "B",
+                "UNSTOPPABLE": "BIS"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "B",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "DNT",
+                "DEADEYE": "BIS",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "BIS",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "B",
+                "PRIMETIME": "A",
+                "PRIZE FIGHTER": "B",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "BIS",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "B",
+                "SUPER SURGE": "LR",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "A",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "B",
+                "UNSTOPPABLE": "BIS"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "PUMMELERS",
+                    "MAGNETIZED SOLES",
+                    "SLICK KICKS"
+                ],
+                "BIS": [
+                    "DEADEYE",
+                    "SPECIALIZED TRAINING",
+                    "TWIN DRIVE",
+                    "GLASS CANNON",
+                    "UNSTOPPABLE"
+                ],
+                "A": [
+                    "AERIALS",
+                    "PRIMETIME",
+                    "EXTRA SPECIAL",
+                    "ONE TWO PUNCH",
+                    "MISSILE PROPULSION",
+                    "HEAVY IMPACT",
+                    "RAPID FIRE",
+                    "HOTSHOT",
+                    "ADRENALINE RUSH"
+                ],
+                "B": [
+                    "PRIZE FIGHTER",
+                    "SPARK OF STRENGTH",
+                    "STINGER",
+                    "BUILT DIFFERENT",
+                    "STACKS ON STACKS",
+                    "BULK UP",
+                    "QUICK STRIKE",
+                    "PERFECT FORM",
+                    "STAGGER SWAGGER",
+                    "BIG FISH"
+                ],
+                "LR": [
+                    "PEAK PERFORMANCE",
+                    "SUPER SURGE",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR",
+                    "TEMPO SWING",
+                    "CHRONOBOOST",
+                    "CAST TO LAST"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "EJECT BUTTON",
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT",
+                    "POWERHOUSE PAULDRONS"
+                ],
+                "BIS": [
+                    "DEADEYE",
+                    "SPECIALIZED TRAINING",
+                    "TWIN DRIVE",
+                    "GLASS CANNON",
+                    "UNSTOPPABLE"
+                ],
+                "A": [
+                    "AERIALS",
+                    "PRIMETIME",
+                    "EXTRA SPECIAL",
+                    "ONE TWO PUNCH",
+                    "MISSILE PROPULSION",
+                    "HEAVY IMPACT",
+                    "RAPID FIRE",
+                    "HOTSHOT",
+                    "ADRENALINE RUSH"
+                ],
+                "B": [
+                    "PRIZE FIGHTER",
+                    "SPARK OF STRENGTH",
+                    "STINGER",
+                    "BUILT DIFFERENT",
+                    "STACKS ON STACKS",
+                    "BULK UP",
+                    "QUICK STRIKE",
+                    "PERFECT FORM",
+                    "STAGGER SWAGGER",
+                    "BIG FISH"
+                ],
+                "LR": [
+                    "PEAK PERFORMANCE",
+                    "SUPER SURGE",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR",
+                    "TEMPO SWING",
+                    "CHRONOBOOST",
+                    "CAST TO LAST"
+                ]
+            }
+        }
+    },
+    "Octavia": {
+        "name": "Octavia",
+        "stats_tier": 5,
+        "abilities": [
+            {
+                "name": "Sonic Boom",
+                "types": [
+                    "PROJECTILE",
+                    "DEBUFF"
+                ],
+                "description": "Launch a sonic wave that hits all enemies it passes through and slows them for 1s. Deals LIGHT hits to subsequent enemies.",
+                "cooldown": 7.5,
+                "core_knockback": [
+                    1330,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Flow State",
+                "types": [
+                    "HASTE",
+                    "BUFF"
+                ],
+                "description": "Gain a 30% Speed for 2.25s, increasing by 2% per second. Hitting anything refreshes the duration, scaling infinitely.",
+                "cooldown": 18,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": null
+            },
+            {
+                "name": "Bass Drop",
+                "types": [
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "After a delay, emit 5 sound pulses at surrounding enemies over 2.5s.",
+                "cooldown": 35,
+                "core_knockback": [
+                    900,
+                    340
+                ],
+                "player_knockback": [
+                    140,
+                    69
+                ],
+                "damage": [
+                    60,
+                    30
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "BIS",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "B",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "LR",
+                "CHRONOBOOST": "BIS",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "LR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "LR",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "A",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "B",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "BIS",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "A",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "A",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": null
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS",
+                    "VICIOUS VAMBRACES"
+                ],
+                "BIS": [
+                    "CHRONOBOOST",
+                    "CAST TO LAST",
+                    "QUICK STRIKE",
+                    "AERIALS",
+                    "STACKS ON STACKS"
+                ],
+                "A": [
+                    "TWIN DRIVE",
+                    "PRIMETIME",
+                    "BUILT DIFFERENT",
+                    "SPARK OF AGILITY",
+                    "SPARK OF RESILIENCE",
+                    "PEAK PERFORMANCE",
+                    "BIG FISH",
+                    "SPECIALIZED TRAINING",
+                    "SUPER SURGE"
+                ],
+                "B": [
+                    "ORB DANCER",
+                    "EGOIST",
+                    "GLASS CANNON",
+                    "EXTRA SPECIAL",
+                    "RAPID FIRE",
+                    "SPARK OF FOCUS",
+                    "MISSILE PROPULSION",
+                    "REVERBERATION",
+                    "BULK UP"
+                ],
+                "LR": [
+                    "CATALYST",
+                    "HEAVY IMPACT",
+                    "ORB PONDERER",
+                    "ORB REPLICATOR",
+                    "FIRE UP",
+                    "HOTSHOT",
+                    "SPARK OF STRENGTH",
+                    "TEMPO SWING"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            },
+            "GOALIE": null
+        }
+    },
+    "Rasmus": {
+        "name": "Rasmus",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "Pendulum Swing",
+                "types": [
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Slam your chain sickle from overhead, in a direction. Enemies hit near max range are hit much harder.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1360,
+                    190
+                ],
+                "player_knockback": [
+                    190,
+                    95
+                ],
+                "damage": [
+                    190,
+                    95
+                ]
+            },
+            {
+                "name": "Whiplash",
+                "types": [
+                    "HASTE",
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Gain 35% Speed for 2.25s. Within the next 2.25s, recast to deal a LIGHT hit to surrounding enemies.",
+                "cooldown": 16,
+                "core_knockback": [
+                    1260,
+                    139
+                ],
+                "player_knockback": [
+                    140,
+                    69
+                ],
+                "damage": [
+                    140,
+                    69
+                ]
+            },
+            {
+                "name": "Death Touch",
+                "types": [
+                    "PROJECTILE",
+                    "CREATION",
+                    "BUFF"
+                ],
+                "description": "",
+                "cooldown": 18,
+                "core_knockback": [
+                    1350,
+                    400
+                ],
+                "player_knockback": [
+                    400,
+                    200
+                ],
+                "damage": [
+                    200,
+                    100
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "B",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "LR",
+                "CAST TO LAST": "LR",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "BIS",
+                "DEADEYE": "B",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "BIS",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "LR",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "BIS",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "B",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "B",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "B",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "DNT",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "LR",
+                "UNSTOPPABLE": "A"
+            },
+            "GOALIE": {
+                "AERIALS": "LR",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "LR",
+                "CAST TO LAST": "B",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "LR",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "A",
+                "ORB PONDERER": "LR",
+                "ORB REPLICATOR": "A",
+                "PEAK PERFORMANCE": "B",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "B",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "B",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "B",
+                "UNSTOPPABLE": "LR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "MAGNETIZED SOLES",
+                    "SLICK KICKS",
+                    "PUMMELERS",
+                    "VICIOUS VAMBRACES"
+                ],
+                "BIS": [
+                    "SPECIALIZED TRAINING",
+                    "CHRONOBOOST",
+                    "BUILT DIFFERENT",
+                    "PERFECT FORM",
+                    "PRIMETIME"
+                ],
+                "A": [
+                    "TWIN DRIVE",
+                    "UNSTOPPABLE",
+                    "SUPER SURGE",
+                    "BIG FISH",
+                    "HEAVY IMPACT",
+                    "HOTSHOT",
+                    "RAPID FIRE",
+                    "ONE TWO PUNCH"
+                ],
+                "B": [
+                    "EXTRA SPECIAL",
+                    "STAGGER SWAGGER",
+                    "ADRENALINE RUSH",
+                    "GLASS CANNON",
+                    "TEMPO SWING",
+                    "PEAK PERFORMANCE",
+                    "STACKS ON STACKS",
+                    "AERIALS",
+                    "DEADEYE"
+                ],
+                "LR": [
+                    "STINGER",
+                    "BULK UP",
+                    "SPARK OF STRENGTH",
+                    "CAST TO LAST",
+                    "QUICK STRIKE",
+                    "PRIZE FIGHTER",
+                    "SPARK OF AGILITY",
+                    "SPARK OF FOCUS"
+                ],
+                "DNT": [
+                    "TIMELESS CREATOR",
+                    "MONUMENTALIST",
+                    "MISSILE PROPULSION",
+                    "SPARK OF RESILIENCE"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "POWERHOUSE PAULDRONS"
+                ],
+                "BIS": [
+                    "BUILT DIFFERENT",
+                    "BIG FISH",
+                    "PRIMETIME",
+                    "HOTSHOT",
+                    "TWIN DRIVE"
+                ],
+                "A": [
+                    "STACKS ON STACKS",
+                    "HEAVY IMPACT",
+                    "ORB PONDERER",
+                    "CHRONOBOOST",
+                    "GLASS CANNON",
+                    "ORB REPLICATOR",
+                    "RAPID FIRE"
+                ],
+                "B": [
+                    "CAST TO LAST",
+                    "SPECIALIZED TRAINING",
+                    "STINGER",
+                    "SPARK OF FOCUS",
+                    "SPARK OF AGILITY",
+                    "SUPER SURGE",
+                    "EXTRA SPECIAL",
+                    "STAGGER SWAGGER",
+                    "PEAK PERFORMANCE"
+                ],
+                "LR": [
+                    "UNSTOPPABLE",
+                    "ORB DANCER",
+                    "ADRENALINE RUSH",
+                    "BULK UP",
+                    "QUICK STRIKE",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF RESILIENCE",
+                    "AERIALS",
+                    "DEADEYE"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "MISSILE PROPULSION",
+                    "TEMPO SWING",
+                    "TIMELESS CREATOR"
+                ]
+            }
+        }
+    },
+    "Rune": {
+        "name": "Rune",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "Unstable Anomaly",
+                "types": [
+                    "IMPACT",
+                    "CREATION"
+                ],
+                "description": "Conjure an expanding anomaly. If it reaches maximum size, it solidifies and continually hits enemies away from it. Otherwise, it dissipates on hitting an enemy.",
+                "cooldown": 7,
+                "core_knockback": [
+                    1405,
+                    212.5
+                ],
+                "player_knockback": [
+                    250,
+                    125
+                ],
+                "damage": [
+                    250,
+                    125
+                ]
+            },
+            {
+                "name": "Shadow Swap",
+                "types": [
+                    "DASH",
+                    "IMPACT",
+                    "CREATION"
+                ],
+                "description": "On round start, place your shadow at your location. On cast, become Elusive and quickly travel to your shadow's location, swapping places with it and leaving an Unstable Anomaly from where you departed.",
+                "cooldown": 12,
+                "core_knockback": [
+                    1405,
+                    212.5
+                ],
+                "player_knockback": [
+                    250,
+                    125
+                ],
+                "damage": [
+                    250,
+                    125
+                ]
+            },
+            {
+                "name": "Banish",
+                "types": [
+                    "PROJECTILE",
+                    "DEBUFF"
+                ],
+                "description": "Launch a shadow wave that banishes, slows, and damages enemies for 1.75s. Banished enemies cannot be targeted or interacted with.",
+                "cooldown": 35,
+                "core_knockback": null,
+                "player_knockback": null,
+                "damage": [
+                    260,
+                    130
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "DNT",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "B",
+                "DEADEYE": "DNT",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "LR",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "A",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "DNT",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "DNT",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "LR",
+                "SUPER SURGE": "DNT",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "A",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "LR",
+                "UNSTOPPABLE": "LR"
+            },
+            "GOALIE": {
+                "AERIALS": "DNT",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "B",
+                "BULK UP": "LR",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "B",
+                "DEADEYE": "DNT",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "LR",
+                "HOTSHOT": "BIS",
+                "MISSILE PROPULSION": "B",
+                "MONUMENTALIST": "A",
+                "ONE TWO PUNCH": "LR",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "A",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "DNT",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "DNT",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "LR",
+                "SUPER SURGE": "DNT",
+                "TEMPO SWING": "DNT",
+                "TIMELESS CREATOR": "BIS",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "LR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "A",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "LR",
+                "STINGER": "LR",
+                "UNSTOPPABLE": "LR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SLICK KICKS"
+                ],
+                "BIS": [
+                    "TIMELESS CREATOR",
+                    "PRIMETIME",
+                    "TWIN DRIVE",
+                    "CAST TO LAST",
+                    "HOTSHOT"
+                ],
+                "A": [
+                    "MONUMENTALIST",
+                    "GLASS CANNON",
+                    "RAPID FIRE",
+                    "PERFECT FORM",
+                    "EXTRA SPECIAL",
+                    "STACKS ON STACKS",
+                    "SPARK OF FOCUS"
+                ],
+                "B": [
+                    "BUILT DIFFERENT",
+                    "QUICK STRIKE",
+                    "CHRONOBOOST",
+                    "MISSILE PROPULSION",
+                    "BIG FISH"
+                ],
+                "LR": [
+                    "HEAVY IMPACT",
+                    "STINGER",
+                    "ONE TWO PUNCH",
+                    "STAGGER SWAGGER",
+                    "BULK UP",
+                    "SPARK OF STRENGTH",
+                    "UNSTOPPABLE",
+                    "SPARK OF AGILITY",
+                    "PEAK PERFORMANCE",
+                    "SPARK OF RESILIENCE",
+                    "ADRENALINE RUSH"
+                ],
+                "DNT": [
+                    "PRIZE FIGHTER",
+                    "DEADEYE",
+                    "AERIALS",
+                    "SUPER SURGE",
+                    "SPECIALIZED TRAINING",
+                    "TEMPO SWING"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "MOMENTUM BOOTS",
+                    "STRIKE SHOT",
+                    "EJECT BUTTON"
+                ],
+                "BIS": [
+                    "TIMELESS CREATOR",
+                    "PRIMETIME",
+                    "TWIN DRIVE",
+                    "CAST TO LAST",
+                    "HOTSHOT"
+                ],
+                "A": [
+                    "MONUMENTALIST",
+                    "GLASS CANNON",
+                    "RAPID FIRE",
+                    "PERFECT FORM",
+                    "EXTRA SPECIAL",
+                    "STACKS ON STACKS",
+                    "SPARK OF FOCUS"
+                ],
+                "B": [
+                    "BUILT DIFFERENT",
+                    "QUICK STRIKE",
+                    "CHRONOBOOST",
+                    "MISSILE PROPULSION",
+                    "BIG FISH"
+                ],
+                "LR": [
+                    "HEAVY IMPACT",
+                    "STINGER",
+                    "ONE TWO PUNCH",
+                    "STAGGER SWAGGER",
+                    "BULK UP",
+                    "SPARK OF STRENGTH",
+                    "UNSTOPPABLE",
+                    "SPARK OF AGILITY",
+                    "PEAK PERFORMANCE",
+                    "SPARK OF RESILIENCE",
+                    "ADRENALINE RUSH"
+                ],
+                "DNT": [
+                    "PRIZE FIGHTER",
+                    "DEADEYE",
+                    "AERIALS",
+                    "SUPER SURGE",
+                    "SPECIALIZED TRAINING",
+                    "TEMPO SWING"
+                ]
+            }
+        }
+    },
+    "Vyce": {
+        "name": "Vyce",
+        "stats_tier": 3,
+        "abilities": [
+            {
+                "name": "Power Chord",
+                "types": [
+                    "IMPACT",
+                    "PROJECTILE",
+                    "DEBUFF"
+                ],
+                "description": "Launch a lightning riff, hitting and slowing the first enemy struck before chaining LIGHT hits to nearby enemies.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1350,
+                    185
+                ],
+                "player_knockback": [
+                    170,
+                    85
+                ],
+                "damage": [
+                    170,
+                    85
+                ]
+            },
+            {
+                "name": "Thunderstruck",
+                "types": [
+                    "TELEPORT",
+                    "IMPACT",
+                    "DEBUFF"
+                ],
+                "description": "Summon a thunderbolt from the sky to a target location, hitting and stunning enemies for 0.75s. For the next 3.25s, recast to assume a form of pure energy and teleport to the cast location.",
+                "cooldown": 16,
+                "core_knockback": null,
+                "player_knockback": [
+                    220,
+                    110
+                ],
+                "damage": [
+                    220,
+                    110
+                ]
+            },
+            {
+                "name": "Super Nova",
+                "types": [
+                    "IMPACT"
+                ],
+                "description": "Push-and-hold this ability to start rocking out, gaining 100% knockback resistance. Upon releasing the ability or after 2s, emit a shockwave that blasts enemies away from you. The wave increases in size and power for the first 1.25s it's charged.",
+                "cooldown": 45,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "A",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "B",
+                "CAST TO LAST": "A",
+                "CATALYST": "B",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "A",
+                "EGOIST": "LR",
+                "EXTRA SPECIAL": "BIS",
+                "FIRE UP": "LR",
+                "GLASS CANNON": "B",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "B",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "B",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "BIS",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "LR",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "A",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "LR",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "BIS",
+                "BIG FISH": "B",
+                "BUILT DIFFERENT": "A",
+                "BULK UP": "LR",
+                "CAST TO LAST": "A",
+                "CATALYST": "LR",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "A",
+                "EGOIST": "LR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "B",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "B",
+                "MISSILE PROPULSION": "A",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "B",
+                "ORB PONDERER": "BIS",
+                "ORB REPLICATOR": "B",
+                "PEAK PERFORMANCE": "LR",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "BIS",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "A",
+                "TEMPO SWING": "B",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "SIPHONING WAND",
+                    "MAGNETIZED SOLES",
+                    "PUMMELERS"
+                ],
+                "BIS": [
+                    "HEAVY IMPACT",
+                    "BUILT DIFFERENT",
+                    "PRIMETIME",
+                    "EXTRA SPECIAL",
+                    "SPECIALIZED TRAINING"
+                ],
+                "A": [
+                    "DEADEYE",
+                    "RAPID FIRE",
+                    "AERIALS",
+                    "TWIN DRIVE",
+                    "CAST TO LAST",
+                    "HOTSHOT",
+                    "MISSILE PROPULSION",
+                    "SUPER SURGE",
+                    "CHRONOBOOST"
+                ],
+                "B": [
+                    "GLASS CANNON",
+                    "STACKS ON STACKS",
+                    "BIG FISH",
+                    "SPARK OF STRENGTH",
+                    "CATALYST",
+                    "BULK UP",
+                    "ORB PONDERER",
+                    "ORB DANCER",
+                    "QUICK STRIKE"
+                ],
+                "LR": [
+                    "ORB REPLICATOR",
+                    "EGOIST",
+                    "FIRE UP",
+                    "SPARK OF AGILITY",
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF FOCUS",
+                    "TEMPO SWING",
+                    "PEAK PERFORMANCE",
+                    "REVERBERATION"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "EJECT BUTTON",
+                    "STRIKE SHOT",
+                    "POWERHOUSE PAULDRONS"
+                ],
+                "BIS": [
+                    "HEAVY IMPACT",
+                    "TWIN DRIVE",
+                    "PRIMETIME",
+                    "AERIALS",
+                    "ORB PONDERER"
+                ],
+                "A": [
+                    "EXTRA SPECIAL",
+                    "BUILT DIFFERENT",
+                    "RAPID FIRE",
+                    "SUPER SURGE",
+                    "CHRONOBOOST",
+                    "GLASS CANNON",
+                    "DEADEYE",
+                    "CAST TO LAST",
+                    "SPECIALIZED TRAINING",
+                    "MISSILE PROPULSION"
+                ],
+                "B": [
+                    "ORB REPLICATOR",
+                    "STACKS ON STACKS",
+                    "TEMPO SWING",
+                    "SPARK OF STRENGTH",
+                    "HOTSHOT",
+                    "BIG FISH",
+                    "ORB DANCER",
+                    "SPARK OF AGILITY",
+                    "FIRE UP",
+                    "SPARK OF FOCUS"
+                ],
+                "LR": [
+                    "QUICK STRIKE",
+                    "CATALYST",
+                    "EGOIST",
+                    "BULK UP",
+                    "PEAK PERFORMANCE",
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "MONUMENTALIST",
+                    "TIMELESS CREATOR"
+                ]
+            }
+        }
+    },
+    "X": {
+        "name": "X",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Bell Ringer",
+                "types": [
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Swing your arms wildly, knocking away enemies near max range but dealing a LIGHT hit to those closer to the center.",
+                "cooldown": 8,
+                "core_knockback": [
+                    1380,
+                    200
+                ],
+                "player_knockback": [
+                    200,
+                    100
+                ],
+                "damage": [
+                    200,
+                    100
+                ]
+            },
+            {
+                "name": "Bull Rush",
+                "types": [
+                    "DASH",
+                    "MELEE"
+                ],
+                "description": "Wind up and rush in a direction, hitting enemies in your path.",
+                "cooldown": 14,
+                "core_knockback": [
+                    1360,
+                    190
+                ],
+                "player_knockback": [
+                    190,
+                    94
+                ],
+                "damage": [
+                    190,
+                    94
+                ]
+            },
+            {
+                "name": "X Maximus!",
+                "types": [
+                    "MELEE",
+                    "BUFF"
+                ],
+                "description": "Hulk out for 3.5s, increasing your Size and upgrading your Strikes to harder and work against players.",
+                "cooldown": 35,
+                "core_knockback": [
+                    1150,
+                    100
+                ],
+                "player_knockback": [
+                    100,
+                    50
+                ],
+                "damage": [
+                    100,
+                    50
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "LR",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "A",
+                "CAST TO LAST": "BIS",
+                "CATALYST": "BIS",
+                "CHRONOBOOST": "A",
+                "DEADEYE": "DNT",
+                "EGOIST": "B",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "LR",
+                "GLASS CANNON": "DNT",
+                "HEAVY IMPACT": "BIS",
+                "HOTSHOT": "DNT",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "OOR",
+                "ORB DANCER": "LR",
+                "ORB PONDERER": "B",
+                "ORB REPLICATOR": "LR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "OOR",
+                "PRIMETIME": "B",
+                "PRIZE FIGHTER": "OOR",
+                "QUICK STRIKE": "A",
+                "RAPID FIRE": "A",
+                "REVERBERATION": "LR",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "B",
+                "STAGGER SWAGGER": "OOR",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "A",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "B",
+                "ADRENALINE RUSH": "OOR",
+                "SPARK OF AGILITY": "B",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "OOR",
+                "UNSTOPPABLE": "OOR"
+            },
+            "GOALIE": {
+                "AERIALS": "LR",
+                "BIG FISH": "BIS",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "A",
+                "CAST TO LAST": "A",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "BIS",
+                "DEADEYE": "DNT",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "B",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "A",
+                "HEAVY IMPACT": "B",
+                "HOTSHOT": "DNT",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "A",
+                "PERFECT FORM": "BIS",
+                "PRIMETIME": "B",
+                "PRIZE FIGHTER": "LR",
+                "QUICK STRIKE": "BIS",
+                "RAPID FIRE": "LR",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "A",
+                "STAGGER SWAGGER": "B",
+                "SUPER SURGE": "B",
+                "TEMPO SWING": "A",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "LR",
+                "ADRENALINE RUSH": "B",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "B",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "B",
+                "UNSTOPPABLE": "B"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "VICIOUS VAMBRACES",
+                    "SLICK KICKS",
+                    "SIPHONING WAND",
+                    "MAGNETIZED SOLES",
+                    "PUMMELERS"
+                ],
+                "BIS": [
+                    "BUILT DIFFERENT",
+                    "HEAVY IMPACT",
+                    "CAST TO LAST",
+                    "BIG FISH",
+                    "CATALYST"
+                ],
+                "A": [
+                    "SPECIALIZED TRAINING",
+                    "TEMPO SWING",
+                    "QUICK STRIKE",
+                    "CHRONOBOOST",
+                    "BULK UP",
+                    "RAPID FIRE",
+                    "PEAK PERFORMANCE",
+                    "EXTRA SPECIAL"
+                ],
+                "B": [
+                    "ORB PONDERER",
+                    "SUPER SURGE",
+                    "PRIMETIME",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF FOCUS",
+                    "SPARK OF AGILITY",
+                    "EGOIST",
+                    "TWIN DRIVE",
+                    "STACKS ON STACKS"
+                ],
+                "LR": [
+                    "REVERBERATION",
+                    "SPARK OF RESILIENCE",
+                    "FIRE UP",
+                    "ORB DANCER",
+                    "ORB REPLICATOR",
+                    "AERIALS"
+                ],
+                "DNT": [
+                    "GLASS CANNON",
+                    "TIMELESS CREATOR",
+                    "MONUMENTALIST",
+                    "DEADEYE",
+                    "HOTSHOT",
+                    "MISSILE PROPULSION"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "POWERHOUSE PAULDRONS",
+                    "MOMENTUM BOOTS",
+                    "EJECT BUTTON",
+                    "STRIKE SHOT"
+                ],
+                "BIS": [
+                    "BIG FISH",
+                    "BUILT DIFFERENT",
+                    "CHRONOBOOST",
+                    "PERFECT FORM",
+                    "QUICK STRIKE"
+                ],
+                "A": [
+                    "TEMPO SWING",
+                    "CAST TO LAST",
+                    "BULK UP",
+                    "GLASS CANNON",
+                    "SPECIALIZED TRAINING",
+                    "PEAK PERFORMANCE",
+                    "ONE TWO PUNCH",
+                    "STACKS ON STACKS"
+                ],
+                "B": [
+                    "SUPER SURGE",
+                    "EXTRA SPECIAL",
+                    "HEAVY IMPACT",
+                    "ADRENALINE RUSH",
+                    "STINGER",
+                    "PRIMETIME",
+                    "UNSTOPPABLE",
+                    "STAGGER SWAGGER",
+                    "SPARK OF STRENGTH",
+                    "SPARK OF FOCUS"
+                ],
+                "LR": [
+                    "SPARK OF AGILITY",
+                    "PRIZE FIGHTER",
+                    "RAPID FIRE",
+                    "TWIN DRIVE",
+                    "AERIALS",
+                    "SPARK OF RESILIENCE"
+                ],
+                "DNT": [
+                    "DEADEYE",
+                    "MONUMENTALIST",
+                    "MISSILE PROPULSION",
+                    "HOTSHOT",
+                    "TIMELESS CREATOR"
+                ]
+            }
+        }
+    },
+    "Zentaro": {
+        "name": "Zentaro",
+        "stats_tier": 4,
+        "abilities": [
+            {
+                "name": "Slice and Dice",
+                "types": [
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Deal a LIGHT hit in a small arc, followed by a larger slash that hits enemies in the center.",
+                "cooldown": 7.5,
+                "core_knockback": [
+                    100,
+                    10
+                ],
+                "player_knockback": [
+                    6,
+                    2
+                ],
+                "damage": [
+                    6,
+                    2
+                ]
+            },
+            {
+                "name": "Iai Rush",
+                "types": [
+                    "TELEPORT",
+                    "MELEE",
+                    "IMPACT"
+                ],
+                "description": "Blink in a line after a delay, hitting all enemies along your travel path.",
+                "cooldown": 18,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Oni's Blade",
+                "types": [
+                    "TELEPORT",
+                    "IMPACT"
+                ],
+                "description": "Blink to a nearby location and become Elusive, repeatedly dealing LIGHT hits to enemies caught in the area. Afterwards, hit all nearby enemies away.",
+                "cooldown": 40,
+                "core_knockback": [
+                    20,
+                    10
+                ],
+                "player_knockback": [
+                    2,
+                    0
+                ],
+                "damage": [
+                    2,
+                    0
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "A",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "LR",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "B",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "LR",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "DNT",
+                "PERFECT FORM": "BIS",
+                "PRIMETIME": "A",
+                "PRIZE FIGHTER": "B",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "LR",
+                "STAGGER SWAGGER": "DNT",
+                "SUPER SURGE": "BIS",
+                "TEMPO SWING": "BIS",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "B",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "A",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "B",
+                "UNSTOPPABLE": "B"
+            },
+            "GOALIE": {
+                "AERIALS": "A",
+                "BIG FISH": "A",
+                "BUILT DIFFERENT": "BIS",
+                "BULK UP": "LR",
+                "CAST TO LAST": "DNT",
+                "CATALYST": "OOR",
+                "CHRONOBOOST": "LR",
+                "DEADEYE": "B",
+                "EGOIST": "OOR",
+                "EXTRA SPECIAL": "A",
+                "FIRE UP": "OOR",
+                "GLASS CANNON": "LR",
+                "HEAVY IMPACT": "A",
+                "HOTSHOT": "A",
+                "MISSILE PROPULSION": "DNT",
+                "MONUMENTALIST": "DNT",
+                "ONE TWO PUNCH": "A",
+                "ORB DANCER": "OOR",
+                "ORB PONDERER": "OOR",
+                "ORB REPLICATOR": "OOR",
+                "PEAK PERFORMANCE": "DNT",
+                "PERFECT FORM": "BIS",
+                "PRIMETIME": "A",
+                "PRIZE FIGHTER": "B",
+                "QUICK STRIKE": "LR",
+                "RAPID FIRE": "B",
+                "REVERBERATION": "OOR",
+                "SPECIALIZED TRAINING": "A",
+                "STACKS ON STACKS": "LR",
+                "STAGGER SWAGGER": "DNT",
+                "SUPER SURGE": "BIS",
+                "TEMPO SWING": "BIS",
+                "TIMELESS CREATOR": "DNT",
+                "TWIN DRIVE": "BIS",
+                "ADRENALINE RUSH": "B",
+                "SPARK OF AGILITY": "LR",
+                "SPARK OF FOCUS": "A",
+                "SPARK OF RESILIENCE": "LR",
+                "SPARK OF STRENGTH": "B",
+                "STINGER": "B",
+                "UNSTOPPABLE": "B"
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "VICIOUS VAMBRACES",
+                    "MAGNETIZED SOLES"
+                ],
+                "BIS": [
+                    "SUPER SURGE",
+                    "PERFECT FORM",
+                    "BUILT DIFFERENT",
+                    "TWIN DRIVE",
+                    "TEMPO SWING"
+                ],
+                "A": [
+                    "AERIALS",
+                    "HOTSHOT",
+                    "SPECIALIZED TRAINING",
+                    "HEAVY IMPACT",
+                    "PRIMETIME",
+                    "ONE TWO PUNCH",
+                    "EXTRA SPECIAL",
+                    "BIG FISH",
+                    "SPARK OF FOCUS"
+                ],
+                "B": [
+                    "DEADEYE",
+                    "RAPID FIRE",
+                    "ADRENALINE RUSH",
+                    "PRIZE FIGHTER",
+                    "SPARK OF STRENGTH",
+                    "STINGER",
+                    "UNSTOPPABLE"
+                ],
+                "LR": [
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF AGILITY",
+                    "GLASS CANNON",
+                    "BULK UP",
+                    "STACKS ON STACKS",
+                    "CHRONOBOOST",
+                    "QUICK STRIKE"
+                ],
+                "DNT": [
+                    "CAST TO LAST",
+                    "PEAK PERFORMANCE",
+                    "TIMELESS CREATOR",
+                    "MISSILE PROPULSION",
+                    "STAGGER SWAGGER",
+                    "MONUMENTALIST"
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "EJECT BUTTON"
+                ],
+                "BIS": [
+                    "SUPER SURGE",
+                    "PERFECT FORM",
+                    "BUILT DIFFERENT",
+                    "TWIN DRIVE",
+                    "TEMPO SWING"
+                ],
+                "A": [
+                    "AERIALS",
+                    "HOTSHOT",
+                    "SPECIALIZED TRAINING",
+                    "HEAVY IMPACT",
+                    "PRIMETIME",
+                    "ONE TWO PUNCH",
+                    "EXTRA SPECIAL",
+                    "BIG FISH",
+                    "SPARK OF FOCUS"
+                ],
+                "B": [
+                    "DEADEYE",
+                    "RAPID FIRE",
+                    "ADRENALINE RUSH",
+                    "PRIZE FIGHTER",
+                    "SPARK OF STRENGTH",
+                    "STINGER",
+                    "UNSTOPPABLE"
+                ],
+                "LR": [
+                    "SPARK OF RESILIENCE",
+                    "SPARK OF AGILITY",
+                    "GLASS CANNON",
+                    "BULK UP",
+                    "STACKS ON STACKS",
+                    "CHRONOBOOST",
+                    "QUICK STRIKE"
+                ],
+                "DNT": [
+                    "CAST TO LAST",
+                    "PEAK PERFORMANCE",
+                    "TIMELESS CREATOR",
+                    "MISSILE PROPULSION",
+                    "STAGGER SWAGGER",
+                    "MONUMENTALIST"
+                ]
+            }
+        }
+    }
+}

@@ -31,8 +31,9 @@ main {
 }
 
 .tabLink {
-  width: 16.66%;
+  width: 25%;
   height: 28px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +56,9 @@ main {
   height: calc(100vh - 390px);
   float: left;
   width: 400px;
+  margin-top: 10px;
   margin-left: 10px;
+  overflow: hidden;
 
   border-width: 1px;
   border-color: red;
@@ -65,12 +68,18 @@ main {
 .rightBox {
   height: calc(100vh - 80px);
   width: calc(100% - 600px);
+  margin-top: 10px;
   margin-right: 180px;
   float: right;
+  overflow: hidden;
   
   border-width: 1px;
   border-color: blue;
   border-style: solid;
+}
+
+.verticalHalf {
+  width: 50%;
 }
 
 .adBox {
@@ -99,13 +108,16 @@ main {
   border-style: solid;
 }
 
-/* Tier Lists Tab */
-#strikerBox {
-  overflow: hidden;
-  padding-top: 10px;
+.link {
+  color: white;
 }
 
-.strikerOptions {
+.link:hover{
+  color: rgb(255, 255, 0);
+  cursor: pointer;
+}
+  /* Controls */
+.controlsHeader {
   height: 40px;
   width: 360px;
   margin-left: 20px;
@@ -116,12 +128,244 @@ main {
   background-color: rgb(36, 64, 94);
 }
 
-.strikerDropdown {
-  width: 60%;
+.controlsHeader select {
   background-color: rgb(51, 84, 122);
   color: white;
   font-size: 14px;
-  border-color: rgb(51, 84, 122);
+  border: none;
+  font-family: 'Kanit', sans-serif;
+}
+  /* Page Controls */
+  .linkBox {
+    margin: 0 20px 0 20px;
+    background-color: rgb(25, 62, 104);
+    overflow: hidden;
+    height: 280px;
+    width: 360px;
+  }
+  
+  .linkList {
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 0;
+    height: 270px;
+  }
+  
+  .linkContainer {
+    float: left;
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 140px;
+    width: 167px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pageLink {
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+  
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+  }
+  
+  .pageLink:hover {
+    cursor: pointer;
+  }
+  
+  .pageIcon {
+    display: block;
+    background-color: rgb(51, 84, 122);
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  
+  .pageTitle {
+    width: 100px;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  /* Tab Pages */
+.tabPage {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.tabPage h1 {
+  margin: 0 0 0 0;
+  background-color: rgb(36, 64, 94);
+}
+
+.pageBody {
+  overflow-y: auto;
+  height: calc(100% - 43px);
+  background-color: rgb(25, 62, 104);
+}
+
+  /* Roles */
+.roleSelect {
+  height: 30px;
+  background-color: rgb(25, 62, 104);
+}
+
+.roleSelect ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roleOption {
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.roleContent {
+  padding: 10px 5px 5px 5px;
+  background-color: rgb(36, 64, 94);
+}
+
+/* Ranked Tab */
+  /* Left Box */
+.playerSearch {
+  width: 60%;
+  height: 21px;
+  background-color: rgb(51, 84, 122);
+  border: none;
+  font-size: 14px;
+  color: white;
+}
+
+.playerSearch::placeholder {
+  color: rgb(204, 204, 204);
+  font-size: 14px;
+}
+
+#regionDropdown {
+  margin-left: 4px;
+}
+
+.playerInfo {
+  background-color: rgb(51, 84, 122);
+  width: 360px;
+  height: 280px;
+  margin: 0 20px 0 20px;
+}
+
+#playerName {
+  font-size: 28px;
+  margin: 0 0 0 0;
+}
+
+.rankInfo {
+  display: flex;
+  width: 100%;
+  height: 215px;
+  align-items: center;
+  
+  background-color: rgb(25, 62, 104);
+}
+
+#statsBox p {
+  width: 100%;
+  font-size: 16px;
+  margin: 15px 0 15px 0;
+}
+
+#rankIcon {
+  display: flex;
+  position: relative;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+#rankName {
+  font-size: 24px;
+  margin: 3px 0 0 0;
+}
+
+  /* Right Box */
+#strikerStats {
+  max-height: calc(100% - 40px);
+  width: calc(100%-600px);
+  overflow-y: auto;
+}
+
+.strikerBlock {
+  width: 360px;
+  display: flex;
+  float: left;
+  align-items: center;
+  margin: 10px 5px 10px 8px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(51, 84, 122);
+}
+
+.strikerProfile {
+  width: 40px;
+}
+
+.strikerIcon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 0;
+}
+
+.strikerName {
+  height: 20px;
+  margin: 0 0 0 0;
+}
+
+.strikerData {
+  display: flex;
+  width: 325px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.dataColumn {
+  width: 50%;
+  height: fit-content;
+}
+
+.dataColumn p {
+  margin: 0 0 0 0;
+  font-size: 14px;
+}
+
+.statsDivider {
+  height: 75px;
+
+  border-color: rgb(36, 64, 94);
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Tier Lists Tab */
+  /* Left Box */
+#strikerBox {
+  overflow: hidden;
+}
+
+#strikerDropdown {
+  width: 60%;
 }
 
 .defaultContainer {
@@ -150,40 +394,11 @@ main {
   margin-bottom: 300px;
 }
 
-#tierListBox {
-  padding-top: 10px;
-}
-
-.roleSelect {
-  height: 30px;
-  background-color: rgb(25, 62, 104);
-}
-
-.roleSelect ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.roleOption {
-  width: 50%;
-  height: 30px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.tierList {
-  padding: 5px;
-  background-color: rgb(36, 64, 94);
-}
-
+  /* Right Box */
 .tier {
   background-color: rgb(51, 84, 122);
   display: flex;
+  border-radius: 20px;
 }
 
 .tierDivider {
@@ -193,6 +408,8 @@ main {
 .tierLabel {
   width: 85px;
   min-height: 68px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,25 +454,280 @@ main {
   display: inline;
 }
 
-.awakeningImage {
-  height: 48px;
-  width: 48px;
+.awakeningSpacer {
+  display: flex;
+  width: 1vw;
+  height: 55px;
   float: left;
-  margin-right: 1vw;
 }
 
+.awakeningImage {
+  height: 55px;
+  width: 55px;
+  float: left;
+}
+
+/* App Info Tab */
+  /* Shared */
+.pageSection {
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(51, 84, 122);
+}
+
+.sectionHeader {
+  margin: 0 0 5px 10px;
+  text-align: left;
+}
+
+.pageSection p {
+  margin: 0 0 0 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.socialIcon {
+  border-radius: 15px;
+  margin: 0px 5px 0px 5px;
+  padding: 5px 5px 5px 5px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(101, 124, 150);
+}
+
+.socialIcon:hover {
+  cursor: pointer;
+}
+
+.pageButton {
+  font-size: 16px;
+  font-family: inherit;
+  font-style: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(247, 226, 35);
+  color: black;
+}
+
+  /* Left Box */
+  #informationHeader {
+    font-size: 24px;
+  }
+
+  /* Right Box */
+    /* About Page */
+#developers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutLogo {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 125px;
+  height: 125px;
+  background-color: rgb(51, 84, 122);
+}
+
+#creators {
+  width: fit-content;
+  padding: 5px 5px 5px 5px;
+}
+
+.textHeader {
+  margin: 0 0 0 15px;
+  text-align: left;
+}
+
+#creators h1 {
+  width: 375px;
+  background-color: rgb(51, 84, 122);
+  text-align: center;
+  font-size: 48px;
+}
+
+.socialsContainer {
+  width: calc(100% - 500px);
+}
+
+.social {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#credits p {
+  margin: 5px 0 5px 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+    /* Contact Page */
+.contactOption {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+#logsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logsButton {
+  margin: 8px 5px 8px 10px;
+  min-width: 175px;
+  max-width: 175px;
+  height: 35px;
+}
+
+  /* Changelog Page */
+
+.changeList {
+  text-align: left;
+  font-size: 16px;
+}
+
+  /* Premium Page */
+#price {
+  font-size: 36px;
+}
+
+#premiumButton {
+  margin: 10px 0 10px 0;
+  width: 125px;
+  height: 35px;
+}
+
+/* Settings Tab */
+  /* Left Box */
+#settingsHeader {
+  font-size: 24px;
+}
+
+  /* Right Box */
+.settingsOption {
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(51, 84, 122);
+}
+
+.settingsInfo {
+  margin: 0 0 0 10px;
+  width: 70%;
+  text-align: left;
+}
+
+.settingsInfo h2 {
+  margin: 0 0 0 0;
+}
+
+.settingsInfo p {
+  margin: 0 0 0 0;
+}
+
+.settingsSelector {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onOffContainer {
+  border-radius: 5px;
+  border-style: none;
+  width: fit-content;
+  padding: 5px 5px 5px 5px;
+  background-color: rgb(101, 124, 150);
+  cursor: default;
+}
+
+.onOff {
+  width: 50px;
+  height: 40px;
+  background-color: rgb(101, 124, 150);
+  color: white;
+}
+
+.onOff:hover {
+  background-color: rgb(27, 51, 82);
+}
+
+.onOff.on.active{
+  background-color: rgb(15, 239, 100);
+  color: black;
+  cursor: default;
+}
+
+.onOff.off.active {
+  background-color: rgb(247, 117, 149);
+  color: black;
+  cursor: default;
+}
+
+.execute {
+  width: 85px;
+  height: 35px;
+}
+
+.settingsDropdown {
+  height: 40px;
+  font-size: 15px;
+  font-family: inherit;
+  color: white;
+  background-color: rgb(101, 124, 150);
+  border-style: none;
+  border-radius: 5px;
+}
+
+#sizeDropdown {
+  margin: 0 0 0 10px;
+}
+
+.settingsTextInput {
+  height: 40px;
+  width: 200px;
+  padding: 0 5px 0 5px;
+  background-color: rgb(101, 124, 150);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.settingsTextInput::placeholder {
+  color: rgb(204, 204, 204);
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#hotkeyInput {
+  text-align: center;
+  font-size: 22px;
+}
+
+#hotkeyInput::placeholder {
+  color:white;
+  font-size: 22px;
+}
+
+/* Credits */
 .creditFooter {
   background-color: rgb(36, 64, 94);
   position: relative;
-}
-
-.creditFooter a {
-  color: rgb(211, 211, 211);
-}
-
-.creditFooter a:hover {
-  color: rgb(255, 255, 0);
-  cursor: pointer;
+  bottom: 0px;
 }
 
 #version {

@@ -70,6 +70,7 @@
 .window-control:hover,
 .window-control:active {
   background-color: rgb(49, 53, 89);
+  cursor: pointer;
 }
 .window-control:before {
   display: block;
@@ -84,6 +85,13 @@
 .window-control:hover:before,
 .window-control:active:before {
   background-color: #dedede;
+}
+.window-control-discord:before {
+  mask-image: url('../img/socials/discord.svg');
+  -webkit-mask-image: url('../img/socials/discord.svg');
+  margin: 0 5px 0 5px;
+  width: 20px;
+  height: 20px;
 }
 .window-control-minimize:before {
   mask-image: url('../img/window_minimize.svg');

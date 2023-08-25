@@ -20,6 +20,7 @@
     <img src="../../img/header_icon.svg" />
     <h1>Striker Sets - Desktop</h1>
     <div class="window-controls-group">
+      <button id="discordButton" class="window-control window-control-discord"/>
       <button id="settingsButton" class="window-control window-control-settings" />
       <button id="minimizeButton" class="window-control window-control-minimize" />
       <button id="maximizeButton" class="window-control window-control-maximize" />
@@ -31,140 +32,202 @@
   <main>
     <div class="tabBar">
       <ul>
-        <li class="tabLink" id="strikers">Strikers</li>
-        <li class="tabLink" id="sets">Meta Sets</li>
-        <li class="tabLink" id="setBuilder">Set Builder</li>
+        <li class="tabLink" id="ranked">Ranked Stats</li>
         <li class="tabLink" id="tierLists">Tier Lists</li>
         <li class="tabLink" id="matchHistory">Match History</li>
-        <li class="tabLink" id="settings">Settings</li>
+        <li class="tabLink" id="appInfo">App Info</li>
       </ul>
     </div>
 
     <div class="mainView">
-      <div class="tabContent" id="strikersContent">
+      <div class="tabContent" id="rankedContent">
         <div class="leftBox">
-        </div>
-        <div class="rightBox">
-          <div class="strikerAwakenings">
-
+          <div class="controlsHeader">
+            <input class="playerSearch" type="text" placeholder="Username">
+            <select id="regionDropdown">
+              <option value="Global">Global</option>
+              <option value="North America">North America</option>
+              <option value="Europe">Europe</option>
+              <option value="South America">South America</option>
+              <option value="Asia">Asia</option>
+              <option value="Oceania">Oceania</option>
+            </select>
           </div>
-          <div class="strikerTierList">
-
-          </div>
-        </div>
-      </div>
-      <div class="tabContent" id="setsContent">
-        <div class="leftBox" id="setBox">
-          <div class="centerBox">
-            <button class="addButton" id="addBuild">+</button>
-          </div>
-          <div class="set">
-            <h6>PlaceholderName</h6>
-            <div class="picksRow" id="firstPicks">
-              <div class="numberBox"><p>Best in<br>Slot</p></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
+          <div class="playerInfo">
+            <p id="playerName">Youalreadylose</p>
+            <div class="rankInfo">
+              <div class="verticalHalf" id="statsBox">
+                <p id="winrate">Overall Winrate: 84%</p>
+                <p id="rank">Rank: 1 [Top 0.0%]</p>
+                <p id="mainRole">Main Role: Goalie</p>
+                <p id="rating">Rating: 3344</p>
+              </div>
+              <div class="verticalHalf" id="rankBox">
+                <img id="rankIcon" src="../../img/ranks/Rank_Omega.png">
+                <p id="rankName">High Platinum</p>
+              </div>
             </div>
-            <div class="rowDivider"></div>
-            <div class="picksRow" id="firstPicks">
-              <div class="numberBox"><p>Next<br>Best</p></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
-              <div class="pickDivider"></div>
-              <img class="pickImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
-            </div>
+            <div class="creditFooter" id="corestrikeLeft">Data provided by <u><a class="link corestrike">Corestrike.gg</a></u></div>
           </div>
         </div>
         <div class="rightBox">
-           
-        </div>
-      </div>
-      <div class="tabContent" id="setBuilderContent">
-        <div class="leftBox">
-          <div class="searchContainer">
-            <input id="awakeningsSearch" type="text" placeholder="Search by name...">
+          <div class="roleSelect" id="rankedRole">
+            <ul>
+              <li class="roleOption" id="rankedForward">Forward</li>
+              <li class="roleOption" id="rankedGoalie">Goalie</li>
+            </ul>
           </div>
-          <div id="awakeningsGrid">
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BuiltDifferent.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BulkUp.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-CastToLast.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Chronoboost.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-DeadEye.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-ExtraSpecial.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-GlassCannon.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-HeavyImpact.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-HotShot.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-MissilePropulsion.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Monumentalist.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OneTwoPunch.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbDancer.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbPonderer.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-OrbReplicator.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PeakPerformance.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PerfectForm.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PrimeTime.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-PrizeFighter.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-QuickStrike.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-RapidFire.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofAgility.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofFocus.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofResilience.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SparkofStrength.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SpecializedTraining.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-StacksOnStacks.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-StaggerSwagger.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Stinger.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-SuperSurge.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TempoSwings.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TimelessCreator.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-TwinDrive.webp"/>
-            <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Unstoppable.webp"/>
-          </div>
-        </div>
-        <div class="rightBox">
-          <div class="setControls">
-            <input id="setNameInput" type="text" placeholder="Set name">
-            <div class="buttonsContainer">
-              <button>Save Set</button>
-              <button>Clear Set</button>
+          <div class="roleContent" id="strikerStats">
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
+            </div>
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
+            </div>
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
+            </div>
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
+            </div>
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
+            </div>
+            <div class="strikerBlock">
+              <div class="strikerProfile">
+                <img class="strikerIcon" src="../../img/256px-StrikerIcons/era.png">
+                <p class="strikerName">Era</p>
+              </div>
+              <div class="strikerData">
+                <div class="dataColumn">
+                  <p>Games: 9999</p>
+                  <p>Winrate: 71.5%</p>
+                  <p>Wins: 9999 | Loses: 9999</p>
+                  <p>MVPs: 9999 (50.0%)</p>
+                </div>
+                <div class="statsDivider"></div>
+                <div class="dataColumn">
+                  <p>Scores: 9999 | Avg: 2.97</p>
+                  <p>Assists: 9999 | Avg: 2.97</p>
+                  <p>KOs: 9999 | Avg: 2.97</p>
+                  <p>Saves: 9999 | Avg: 2.97</p>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="creditFooter" id="corestrikeRight">Data provided by <u><a class="link corestrike">Corestrike.gg</a></u></div>
         </div>
       </div>
       <div class="tabContent" id="tierListsContent">
         <div class="leftBox" id="strikerBox">
-          <div class="strikerOptions">
-            <select class="strikerDropdown" id="tierListDropdown">
-              <option value="Aimi">Ai.Mi</option>
+          <div class="controlsHeader">
+            <select id="strikerDropdown">
+              <option value="AiMi">Ai.Mi</option>
               <option value="Asher">Asher</option>
               <option value="Atlas">Atlas</option>
               <option value="Drekar">Drekar</option>
               <option value="Dubu">Dubu</option>
               <option value="Era">Era</option>
               <option value="Estelle">Estelle</option>
+              <option value="Finii">Finii</option>
               <option value="Juliette">Juliette</option>
               <option value="Juno">Juno</option>
               <option value="Kai">Kai</option>
               <option value="Luna">Luna</option>
-              <option value="Octavia">Drekar</option>
+              <option value="Octavia">Octavia</option>
               <option value="Rasmus">Rasmus</option>
               <option value="Rune">Rune</option>
-              <option value="Vyce">Asher</option>
+              <option value="Vyce">Vyce</option>
               <option value="X">X</option>
               <option value="Zentaro">Zentaro</option>
             </select>
@@ -174,22 +237,22 @@
             </div>
           </div>
           <div class="strikerContainer">
-            <img id="strikerImage" src="../../img/HalfNameplates/AimiHP1.png"/>
+            <img id="strikerImage" src="../../img/strikers/Medium/Rookie/AiMi.png"/>
           </div>
         </div>
-        <div class="rightBox" id="tierListBox">
-          <div class="roleSelect">
+        <div class="rightBox">
+          <div class="roleSelect" id="tierListRole">
             <ul>
-              <li class="roleOption" id="forward">Forward</li>
-              <li class="roleOption" id="goalie">Goalie</li>
+              <li class="roleOption" id="tierForward">Forward</li>
+              <li class="roleOption" id="tierGoalie">Goalie</li>
             </ul>
           </div>
-          <div class="tierList">
+          <div class="roleContent" id="tierList">
             <div class="tier">
               <div class="tierLabel" id="gear">
                 <p>Gear</p>
               </div>
-              <div class="awakeningsRow" id="gearRow">
+              <div class="awakeningsRow" id="GEAR">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -207,7 +270,7 @@
               <div class="tierLabel" id="bestInSlot">
                 <p>Best In<br>Slot</p>
               </div>
-              <div class="awakeningsRow" id="bestRow">
+              <div class="awakeningsRow" id="BIS">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -225,7 +288,7 @@
               <div class="tierLabel" id="ATier">
                 <p>A</p>
               </div>
-              <div class="awakeningsRow" id="ARow">
+              <div class="awakeningsRow" id="A">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -244,7 +307,7 @@
               <div class="tierLabel" id="BTier">
                 <p>B</p>
               </div>
-              <div class="awakeningsRow" id="BRow">
+              <div class="awakeningsRow" id="B">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -267,7 +330,7 @@
               <div class="tierLabel" id="lastResort">
                 <p>Last<br>Resort</p>
               </div>
-              <div class="awakeningsRow" id="lastRow">
+              <div class="awakeningsRow" id="LR">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -283,7 +346,7 @@
               <div class="tierLabel" id="doNotTake">
                 <p>DO NOT<br>TAKE</p>
               </div>
-              <div class="awakeningsRow" id="doNotRow">
+              <div class="awakeningsRow" id="DNT">
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-AdrenalineRush.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-Aerials.webp"/>
                 <img class="awakeningImage" src="../../img/100px-Awakenings/100px-BigFish.webp"/>
@@ -295,7 +358,7 @@
               </div>
             </div>
           </div>
-          <div class="creditFooter">Tier list data sourced from <a>Coach Yokie's Guide to Gear and Awakenings</a></div>
+          <div class="creditFooter" id="coachYokie">Tier list data sourced from <u><a class="link guide">Coach Yokie's Guide to Gear and Awakenings</a></u></div>
         </div>
       </div>
       <div class="tabContent" id="matchHistoryContent">
@@ -306,19 +369,362 @@
           
         </div>
       </div>
-      <div class="tabContent" id="settingsContent">
+      <div class="tabContent" id="appInfoContent">
         <div class="leftBox">
-          
+          <div class="controlsHeader" id="informationHeader">App Information</div>
+          <div class="linkBox">
+            <ul class="linkList">
+              <li class="linkContainer">
+                <div class="pageLink info" id="about">
+                  <img class="pageIcon" id="aboutIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="aboutTitle">About</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink info" id="contact">
+                  <img class="pageIcon" id="contactIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="contactTitle">Contact</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink info" id="changelog">
+                  <img class="pageIcon" id="changelogIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="changelogTitle">Changelog</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink info" id="premium">
+                  <img class="pageIcon" id="premiumIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="premiumTitle">Premium</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="rightBox">
-          
+          <div class="tabPage" id="aboutInfo">
+            <h1>About</h1>
+            <div class="pageBody">
+              <div class="pageSection" id="developers">
+                <img id="aboutLogo" src="../../img/ranks/Rank_Omega.png">
+                <div id="creators">
+                  <div>
+                    <h2 class="textHeader">Developed By:</h2>
+                    <h1 class="textHeader">Poké / Poke024</h1>
+                  </div>
+                </div>
+                <div class="socialsContainer">
+                  <div class="social">
+                    <h3>Follow me online:</h3>
+                    <img class="socialIcon" id="twitter" src="../../img/socials/twitter.svg">
+                  </div>
+                  <div class="social">
+                    <h3>Check out my other projects:</h3>
+                    <img class="socialIcon" id="github" src="../../img/socials/github.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="pageSection" id="languages">
+                <h2 class="sectionHeader">Languages</h2>
+                <p>Striker Stats is currenlty only available in English. I'm hoping to translate to different languages in the future.</p>
+              </div>
+              <div class="pageSection" id="credits">
+                <h2 class="sectionHeader">Credits</h2>
+                <p>Omega Strikers characters and art are obtained from the <u><a class="link asset">Odyssey Interactive Game Asset Kit</a></u>.</p>
+                <p>Omega Strikers and Odyssey Interactive are trademarks or registered trademarks of <u><a class="link odyssey">Odyssey Interactive</a></u>.</p>
+                <p>Player data and statistics obtained from <u><a class="link corestrike">CoreStrike.gg</a></u>, created by <u><a class="link reznok">Reznok</a></u>.</p>
+                <p>Awakenings data and tier lists obtained from <u><a class="link guide">Coach Yokie's Guide to Gear and Awakenings</a></u>, created by <u><a class="link yokie">Coach Yokie</a></u> and contributors.</p>
+              </div>
+              <div class="pageSection" id="disclaimer">
+                <p>Striker Stats is not endorsed by Odyssey Interactive and does not reflect the views or opinions of Odyssey Interactive or anyone officially involved in producing or managing Omega Strikers. Nor does this application reflect the views or opinions of those who manage the sources mentioned above.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tabPage" id="contactInfo">
+            <h1>Contact & Support</h1>
+            <div class="pageBody">
+              <div class="pageSection">
+                <p>If you would like to suggest or request a feature, report any bugs you encounter, or just give feedback, then feel free to contact me through one of the means listed below. I will do my best to respond quickly in a reasonable timeframe.</p>
+              </div>
+              <div class="pageSection" id="logsSection">
+                <p>For support or bug fix requests, please be as detailed as possible. It is also recommended to attach / send relevant screenshots and the app's logs.</p>
+                <button class="pageButton" id="logsButton">Generate Logs ZIP</button>
+              </div>
+              <div class="pageSection">
+                <h2 class="sectionHeader">Contact Info</h2>
+                <div class="contactOption">
+                  <p>Email: <u><a class="link email">contact.strikerstats@gmail.com</a></u></p>
+                </div>
+                <div class="contactOption">
+                  <p>Discord:</p><img class="socialIcon" id="discord" src="../../img/socials/discord.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabPage" id="changelogInfo">
+            <h1>Changelog</h1>
+            <div class="pageBody">
+              <div class="pageSection">
+                <h2 class="sectionHeader">Version 1.0.0 / July 20th, 2023</h2>
+                <ul class="changeList">
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                </ul>
+              </div><div class="pageSection">
+                <h2 class="sectionHeader">Version 1.0.0 / July 20th, 2023</h2>
+                <ul class="changeList">
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                </ul>
+              </div><div class="pageSection">
+                <h2 class="sectionHeader">Version 1.0.0 / July 20th, 2023</h2>
+                <ul class="changeList">
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                  <li>Added sumting lmao</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tabPage" id="premiumInfo">
+            <h1>Premium</h1>
+            <div class="pageBody">
+              <div class="pageSection">
+                <h2 class="sectionHeader" id="price">$1.99 / Month</h2>
+                <p>Considering subscribing to Striker Stats premium to remove ads while continuing to support the app.</p>
+                <button class="pageButton" id="premiumButton">Buy Premium</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabContent" id="settingsContent">
+        <div class="leftBox">
+          <div class="controlsHeader" id="settingsHeader">Settings</div>
+          <div class="linkBox">
+            <ul class="linkList">
+              <li class="linkContainer">
+                <div class="pageLink settings" id="inGame">
+                  <img class="pageIcon" id="inGameIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="inGameTitle">In-Game</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink settings" id="app">
+                  <img class="pageIcon" id="appIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="appTitle">App</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink settings" id="storage">
+                  <img class="pageIcon" id="storageIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="storageTitle">Stored Data</p>
+                </div>
+              </li>
+              <li class="linkContainer">
+                <div class="pageLink settings" id="other">
+                  <img class="pageIcon" id="otherIcon" src="../../img/ranks/Rank_Omega.png">
+                  <p class="pageTitle" id="otherTitle">Other</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="rightBox">
+          <div class="tabPage" id="inGameSettings">
+            <h1>In-Game Settings</h1>
+            <div class="pageBody">
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Hotkey Reminder</h2>
+                  <p>Show an overlay hotkey reminder upon launching Omega Strikers.</p>
+                </div>
+                <div class="settingsSelector">
+                  <div class="onOffContainer">
+                    <input type="button" class="pageButton onOff on active" value="On">
+                    <input type="button" class="pageButton onOff off" value="Off">
+                  </div>
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Hotkey: Show / Hide In-Game Overlay</h2>
+                  <p>Assign a hotkey to toggle the in-game overlay.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="text" class="settingsTextInput" id="hotkeyInput" placeholder="Ctrl + F">
+                </div>
+              </div>
+              <!-- <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Overlay Customization</h2>
+                  <p>Toggle visibility and accessibility of parts of the in-game overlay.</p>
+                </div>
+                <div class="settingsSelector">
+  
+                </div>
+              </div> -->
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Secondary Monitor</h2>
+                  <p>Show the desktop app on your second screen while the game is open.</p>
+                </div>
+                <div class="settingsSelector">
+                  <div class="onOffContainer">
+                    <input type="button" class="pageButton onOff on active" value="On">
+                    <input type="button" class="pageButton onOff off" value="Off">
+                  </div>
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Streamer Mode</h2>
+                  <p>Hide nicknames of your teammates and opponents anywhere they appear in the app.</p>
+                </div>
+                <div class="settingsSelector">
+                  <div class="onOffContainer">
+                    <input type="button" class="pageButton onOff on" value="On">
+                    <input type="button" class="pageButton onOff off active" value="Off">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabPage" id="appSettings">
+            <h1>App Settings</h1>
+            <div class="pageBody">
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Auto-Launch</h2>
+                  <p>Automatically open this app when Omega Strikers launches.</p>
+                </div>
+                <div class="settingsSelector">
+                  <div class="onOffContainer">
+                    <input type="button" class="pageButton onOff on active" value="On">
+                    <input type="button" class="pageButton onOff off" value="Off">
+                  </div>
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Awakening Infobox</h2>
+                  <p>Display an awakening's information when hovering over its icon.</p>
+                </div>
+                <div class="settingsSelector">
+                  <div class="onOffContainer">
+                    <input type="button" class="pageButton onOff on active" value="On">
+                    <input type="button" class="pageButton onOff off" value="Off">
+                  </div>
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Default Striker Portraits</h2>
+                  <p>Set portrait style and size used to display strikers.<br>This will not overwrite any individually selected default or custom upload.<br>Large portraits can be fully viewed by expanding the app window vertically.</p>
+                </div>
+                <div class="settingsSelector">
+                  <select class="settingsDropdown" id="styleDropdown">
+                    <option value="Rookie">Rookie</option>
+                    <option value="Expert">Expert</option>
+                  </select>
+                  <select class="settingsDropdown" id="sizeDropdown">
+                    <option value="Medium">Medium (512 x 400)</option>
+                    <option value="Large">Large (512 x 768)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Linked Account</h2>
+                  <p>Set the default Omega Strikers account to obtain and store data for.<br>Leave blank to disable any default.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="text" class="settingsTextInput" placeholder="Username">
+                </div>
+              </div>
+              <!-- <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Show / Hide Tabs</h2>
+                  <p>Toggle visibility and accessibility of individual tabs.</p>
+                </div>
+                <div class="settingsSelector">
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="tabPage" id="storageSettings">
+            <h1>Storage & Data Settings</h1>
+            <div class="pageBody">
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Export Match History</h2>
+                  <p>Export your match history to a file.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="button" class="pageButton execute" value="Execute">
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Load Match History</h2>
+                  <p>Load match history from a file. This will replace your current history.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="button" class="pageButton execute" value="Execute">
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Reset Match History</h2>
+                  <p>Wipe current match history data to a blank state.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="button" class="pageButton execute" value="Execute">
+                </div>
+              </div>
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>Reset Settings</h2>
+                  <p>Restore the default settings to initial installation. This will not affect your match history.</p>
+                </div>
+                <div class="settingsSelector">
+                  <input type="button" class="pageButton settingsButton execute" value="Execute">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabPage" id="otherSettings">
+            <h1>Other Settings</h1>
+            <div class="pageBody">
+              <div class="settingsOption">
+                <div class="settingsInfo">
+                  <h2>OOPS, nothing here.</h2>
+                  <p>This section will be filled out once more features are added.</p>
+                </div>
+                <div class="settingsSelector">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="adBox">
-        AD
       </div>
       <div class="adColumn">
-        AD
       </div>
     </div>
   </main>

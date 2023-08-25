@@ -24,6 +24,11 @@
         "title": "Show/Hide In-Game Window",
         "action-type": "toggle",
         "default": "Ctrl+F"
+      },
+      "strikers_sets_ts_capture": {
+        "title": "Capture Game Window",
+        "action-type": "custom",
+        "default": "Ctrl+G"
       }
     },
     "protocol_override_domains": {
