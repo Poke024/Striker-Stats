@@ -1,7 +1,7 @@
 import { AppWindow } from "../AppWindow";
 import { kWindowNames } from "../consts";
 
-import { Striker } from "../striker";
+import { Striker, Awakening } from "../objects";
 import strikersJson from '../strikers.json';
 // The desktop window is the window displayed while game is not running.
 // In our case, our desktop window has no logic - it only displays static data.
@@ -9,8 +9,8 @@ import strikersJson from '../strikers.json';
 new AppWindow(kWindowNames.desktop);
 
 /* Navigation Bar & Tab Functionality */
-var activeNav = (document.getElementById("tierLists") as HTMLElement);
-var activeTab = (document.getElementById("tierListsContent") as HTMLElement);
+var activeNav = (document.getElementById("ranked") as HTMLElement);
+var activeTab = (document.getElementById("rankedContent") as HTMLElement);
 activeNav.style.background = "rgb(27, 51, 82)";
 activeTab.style.display = "block";
 
@@ -139,6 +139,25 @@ var activeRankedRole = (document.getElementById("rankedForward") as HTMLElement)
 var activeTierRole = (document.getElementById("tierForward") as HTMLElement);
 activeRankedRole.style.background = "rgb(36, 64, 94)";
 activeTierRole.style.background = "rgb(36, 64, 94)";
+
+/* Ranked Stats Functionality */
+function get_player_stats(event) {
+    let clicked = (event.currentTarget as HTMLElement)
+    if (event.keyCode == 13 || event.key === "Enter" || clicked.id == "searchButton") {
+        console.log("Fired get_player_stats from " + clicked.id);
+        let data = null;
+        fetch('https://corestrike.gg/lookup/Reznok?json=true').then(function(response) {
+            console.log(response);
+            return response.json();
+        }).then(function(received) {
+            data = received;
+            console.log(data);
+        });
+    } else { return; }
+}
+
+(document.getElementById("playerLookup")).addEventListener("keydown", get_player_stats);
+(document.getElementById("searchButton")).addEventListener("click", get_player_stats);
 
 /* Tier List Functionality */
 function load_awakenings(role: string) {

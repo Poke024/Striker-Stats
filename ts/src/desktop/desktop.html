@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="../../css/desktop.css" />
   <link rel="stylesheet" href="../../css/modal.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
   <title>Striker Sets - Desktop page</title>
 </head>
 
@@ -32,10 +29,10 @@
   <main>
     <div class="tabBar">
       <ul>
-        <li class="tabLink" id="ranked">Ranked Stats</li>
-        <li class="tabLink" id="tierLists">Tier Lists</li>
-        <li class="tabLink" id="matchHistory">Match History</li>
-        <li class="tabLink" id="appInfo">App Info</li>
+        <li class="tabLink" id="ranked">Ranked Statistics</li>
+        <li class="tabLink" id="tierLists">Striker Awakenings</li>
+        <li class="tabLink" id="matchHistory">Awakenings Calculator</li>
+        <li class="tabLink" id="appInfo">App Information</li>
       </ul>
     </div>
 
@@ -43,7 +40,7 @@
       <div class="tabContent" id="rankedContent">
         <div class="leftBox">
           <div class="controlsHeader">
-            <input class="playerSearch" type="text" placeholder="Username">
+            <input class="playerSearch" id="playerLookup" type="text" placeholder="Username">
             <select id="regionDropdown">
               <option value="Global">Global</option>
               <option value="North America">North America</option>
@@ -52,6 +49,7 @@
               <option value="Asia">Asia</option>
               <option value="Oceania">Oceania</option>
             </select>
+            <button id="searchButton">Search</button>
           </div>
           <div class="playerInfo">
             <p id="playerName">Youalreadylose</p>

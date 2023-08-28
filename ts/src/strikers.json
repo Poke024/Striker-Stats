@@ -2878,6 +2878,252 @@
             }
         }
     },
+    "Kazan": {
+        "name": "Kazan",
+        "stats_tier": 1,
+        "abilities": [
+            {
+                "name": "Misdirection",
+                "types": [
+                    "PROJECTILE"
+                ],
+                "description": "Launch a decelerating projectile that hits the first enemy struck. After reaching its apex, it rapidly reverses course and hits harder.",
+                "cooldown": 7,
+                "core_knockback": [
+                    1230,
+                    125
+                ],
+                "player_knockback": [
+                    125,
+                    62.5
+                ],
+                "damage": [
+                    125,
+                    62.5
+                ]
+            },
+            {
+                "name": "Double Take",
+                "types": [
+                    "IMPACT",
+                    "DEBUFF"
+                ],
+                "description": "Deploy a poof of smoke at a target location, dealing a LIGHT hit to enemies and causing them to take 30% more damage from all sources for 4s.",
+                "cooldown": 10,
+                "core_knockback": [
+                    1300,
+                    160
+                ],
+                "player_knockback": [
+                    160,
+                    80
+                ],
+                "damage": [
+                    160,
+                    80
+                ]
+            },
+            {
+                "name": "Big Finish",
+                "types": [
+                    "IMPACT",
+                    "CREATION"
+                ],
+                "description": "Conjure a gravity well at a target location, slowing and pulling enemies towards its center point. After 2.25s or upon recast, the well explodes, hitting enemies away.",
+                "cooldown": 35,
+                "core_knockback": [
+                    1500,
+                    425
+                ],
+                "player_knockback": [
+                    200,
+                    100
+                ],
+                "damage": [
+                    200,
+                    100
+                ]
+            }
+        ],
+        "awakeningToTier": {
+            "FORWARD": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            },
+            "GOALIE": {
+                "AERIALS": "",
+                "BIG FISH": "",
+                "BUILT DIFFERENT": "",
+                "BULK UP": "",
+                "CAST TO LAST": "",
+                "CATALYST": "",
+                "CHRONOBOOST": "",
+                "DEADEYE": "",
+                "EGOIST": "",
+                "EXTRA SPECIAL": "",
+                "FIRE UP": "",
+                "GLASS CANNON": "",
+                "HEAVY IMPACT": "",
+                "HOTSHOT": "",
+                "MISSILE PROPULSION": "",
+                "MONUMENTALIST": "",
+                "ONE TWO PUNCH": "",
+                "ORB DANCER": "",
+                "ORB PONDERER": "",
+                "ORB REPLICATOR": "",
+                "PEAK PERFORMANCE": "",
+                "PERFECT FORM": "",
+                "PRIMETIME": "",
+                "PRIZE FIGHTER": "",
+                "QUICK STRIKE": "",
+                "RAPID FIRE": "",
+                "REVERBERATION": "",
+                "SPECIALIZED TRAINING": "",
+                "STACKS ON STACKS": "",
+                "STAGGER SWAGGER": "",
+                "SUPER SURGE": "",
+                "TEMPO SWING": "",
+                "TIMELESS CREATOR": "",
+                "TWIN DRIVE": "",
+                "ADRENALINE RUSH": "",
+                "SPARK OF AGILITY": "",
+                "SPARK OF FOCUS": "",
+                "SPARK OF RESILIENCE": "",
+                "SPARK OF STRENGTH": "",
+                "STINGER": "",
+                "UNSTOPPABLE": ""
+            }
+        },
+        "tierToAwakenings": {
+            "FORWARD": {
+                "GEAR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "BIS": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "A": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "B": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "LR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "DNT": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "GOALIE": {
+                "GEAR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "BIS": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "A": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "B": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "LR": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "DNT": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    },
     "Luna": {
         "name": "Luna",
         "stats_tier": 3,

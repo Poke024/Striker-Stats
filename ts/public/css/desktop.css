@@ -1,10 +1,15 @@
+@font-face {
+  font-family: "Kanit";
+  src: url('fonts/Kanit-Regular.ttf');
+}
+
 body {
   margin: 0px;
   font-size: 14px;
   overflow: hidden;
   background-color: rgb(27, 51, 82);
   color: white;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Kanit';
 }
 
 main {
@@ -242,10 +247,11 @@ main {
 /* Ranked Tab */
   /* Left Box */
 .playerSearch {
-  width: 60%;
+  width: 40%;
   height: 21px;
   background-color: rgb(51, 84, 122);
   border: none;
+  font-family: inherit;
   font-size: 14px;
   color: white;
 }
@@ -256,7 +262,18 @@ main {
 }
 
 #regionDropdown {
+  width: 35%;
   margin-left: 4px;
+}
+
+#searchButton {
+  margin-left: 4px;
+  width: 60px;
+  background-color: rgb(51, 84, 122);
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
 }
 
 .playerInfo {

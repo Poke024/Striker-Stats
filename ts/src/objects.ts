@@ -13,6 +13,21 @@ class Ability {
     }
 }
 
+export class Awakening {
+    public name: string;
+    public description: string;
+    // Array Format: ["IMPACT", "PROJECTILE", ...]
+    public types: Array<string>;
+    // Array Format: ["Mobility", "Power", "Sustain", ...]
+    public categories: Array<string>;
+    // Array Format: ["STAGGER ADD 300", "PRIMARY ADD 1", "PRIMARY COOLDOWN 30%", ...]
+    public effects: Array<string>;
+
+    public constructor(data: Partial<Awakening> = {}) {
+        Object.assign(this, data);
+    }
+}
+
 export class Striker {
     public name: string;
     public stats_tier: number;

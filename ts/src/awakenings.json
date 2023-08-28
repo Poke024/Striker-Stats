@@ -1,0 +1,501 @@
+{
+    "AERIALS": {
+        "name": "Aerials",
+        "description": "DASH range, BLINK range, and HASTE effects increased 75%. PROJECTILES gain 35% travel or cast range.",
+        "types": [
+            "DASH",
+            "BLINK",
+            "HASTE",
+            "PROJECTILE"
+        ],
+        "categories": [
+            "Mobility",
+            "Utility"
+        ],
+        "effects": [
+            "DASH RANGE 75%",
+            "BLINK RANGE 75%",
+            "HASTE RANGE 75%",
+            "PROJECTILE RANGE 35%"
+        ]
+    },
+    "BIG FISH": {
+        "name": "Big Fish",
+        "description": "Gain 30% Size and 300 max Stagger.",
+        "types": null,
+        "categories": [
+            "Sustain",
+            "Size"
+        ],
+        "effects": [
+            "SIZE ADD 30%",
+            "STAGGER ADD 300"
+        ]
+    },
+    "BUILT DIFFERENT": {
+        "name": "Built Different",
+        "description": "Gain 30% Size. Your IMPACT abilities hit 10% harder (2% on Core).",
+        "types": [
+            "IMPACT"
+        ],
+        "categories": [
+            "Power",
+            "Size"
+        ],
+        "effects": [
+            "SIZE ADD 30%",
+            "IMPACT HIT 10% 2%"
+        ]
+    },
+    "BULK UP": {
+        "name": "Bulk Up",
+        "description": "Gain 300 max Stagger and 1.5 Power per 100 max Stagger.",
+        "types": null,
+        "categories": [
+            "Power",
+            "Sustain"
+        ],
+        "effects": [
+            "STAGGER ADD 300",
+            "POWER PER 1.5 100 STAGGER"
+        ]
+    },
+    "CAST TO LAST": {
+        "name": "Cast To Last",
+        "description": "Ability BUFFS and DEBUFFS you cast last 70% longer. CREATIONS last 35% longer.",
+        "types": [
+            "BUFF",
+            "DEBUFF",
+            "CREATION"
+        ],
+        "categories": [
+            "Duration"
+        ],
+        "effects": [
+            "BUFF/DEBUFF DURATION 70%",
+            "CREATION DURATION 35%"
+        ]
+    },
+    "CATALYST": {
+        "name": "Catalyst",
+        "description": "Gain 20% more Energy from dealing hits. Being hit generates 6 Energy (2 for LIGHT hits).",
+        "types": null,
+        "categories": [
+            "Sustain",
+            "Utility"
+        ],
+        "effects": null
+    },
+    "CHRONOBOOST": {
+        "name": "Chronoboost",
+        "description": "DASH range, BLINK range, and HASTE effects increased 75%. Ability BUFFS and DEBUFFS last 35% longer.",
+        "types": [
+            "DASH",
+            "BLINK",
+            "HASTE",
+            "BUFF",
+            "DEBUFF"
+        ],
+        "categories": [
+            "Mobility",
+            "Duration"
+        ],
+        "effects": [
+            "DASH RANGE 75%",
+            "BLINK RANGE 75%",
+            "HASTE RANGE 75%",
+            "BUFF/DEBUFF DURATION 35%"
+        ]
+    },
+    "DEADEYE": {
+        "name": "Deadeye",
+        "description": "Hit 30% harder (6% to Core) against targets at 600+ range.",
+        "types": null,
+        "categories": [
+            "Power"
+        ],
+        "effects": null
+    },
+    "EGOIST": {
+        "name": "Egoist",
+        "description": "Evades refund 10 Energy (20 from Energy Bursts). Reaching max Energy grants 75% Speed for 8s, reducing to 10% speed when you remain at max Energy.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Sustain"
+        ],
+        "effects": null
+    },
+    "EXTRA SPECIAL": {
+        "name": "Extra Special",
+        "description": "SPECIAL cooldown reduced by 30%. Each face off its cooldown is reset.",
+        "types": [
+            "SPECIAL"
+        ],
+        "categories": [
+            "Utility"
+        ],
+        "effects": [
+            "SPECIAL COOLDOWN 30%"
+        ]
+    },
+    "FIRE UP": {
+        "name": "Fire Up",
+        "description": "Gain 10 Energy on round start. Casting Energy Burst restores 25% of max Energy to other allies and Speeds up your whole team by 40% for 5s.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Utility"
+        ],
+        "effects": null
+    },
+    "GLASS CANNON": {
+        "name": "Glass Cannon",
+        "description": "Gain 8 Power and 4% Speed every 2.5s (up to 32 Power and 16% Speed). Getting hit resets the timer.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Power"
+        ],
+        "effects": null
+    },
+    "HEAVY IMPACT": {
+        "name": "Heavy Impact",
+        "description": "IMPACT abilities hit 15% harder (3% on Core). Whenever you hit 2 or more targets with a single ability, its cooldown is reduced by 25% (up to 10s).",
+        "types": [
+            "IMPACT"
+        ],
+        "categories": [
+            "Power"
+        ],
+        "effects": [
+            "IMPACT HIT 15% 3%"
+        ]
+    },
+    "HOTSHOT": {
+        "name": "Hotshot",
+        "description": "Character abilities hit the Core 15% harder and refund 35% of the ability's cooldown (once per cast).",
+        "types": null,
+        "categories": [
+            "Utility"
+        ],
+        "effects": [
+            "ABILITIES HIT 15%"
+        ]
+    },
+    "MISSILE PROPULSION": {
+        "name": "Missile Propulsion",
+        "description": "PROJECTILES gain 70% travel or cast range and hit 15% harder.",
+        "types": [
+            "PROJECTILE"
+        ],
+        "categories": [
+            "Utility"
+        ],
+        "effects": [
+            "PROJECTILE RANGE 70%",
+            "PROJECTILE HIT 15% 15%"
+        ]
+    },
+    "MONUMENTALIST": {
+        "name": "Monumentalist",
+        "description": "CREATIONS gain 100% size and hit 15% harder (4% to Core).",
+        "types": [
+            "CREATION"
+        ],
+        "categories": [
+            "Power",
+            "Utility"
+        ],
+        "effects": [
+            "CREATION SIZE 100%",
+            "CREATION HIT 15% 4%"
+        ]
+    },
+    "ONE TWO PUNCH": {
+        "name": "One Two Punch",
+        "description": "Hit 30% harder (15% to Core) against targets you've hit within 2.5s.",
+        "types": null,
+        "categories": [
+            "Power"
+        ],
+        "effects": null
+    },
+    "ORB DANCER": {
+        "name": "Orb Dancer",
+        "description": "Power Orbs increase Speed by 40% for 6s. After collecting 10 without being KOed, this effect is increased to 80%.",
+        "types": null,
+        "categories": [
+            "Mobility"
+        ],
+        "effects": null
+    },
+    "ORB PONDERER": {
+        "name": "Orb Ponderer",
+        "description": "Power Orbs reduce active cooldowns by 25%. After collecting 10 without being KOed, this effect is increased to 45%.",
+        "types": null,
+        "categories": [
+            "Utility"
+        ],
+        "effects": null
+    },
+    "ORB REPLICATOR": {
+        "name": "Orb Replicator",
+        "description": "50% of benefits from Power Orbs you collect is also granted to allies.",
+        "types": null,
+        "categories": [
+            "Utility"
+        ],
+        "effects": null
+    },
+    "PEAK PERFORMANCE": {
+        "name": "Peak Performance",
+        "description": "Gain 300 max Stagger and 0.5% Speed per 100 max Stagger.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Sustain"
+        ],
+        "effects": [
+            "STAGGER ADD 300",
+            "SPEED PER 0.5% 100 STAGGER"
+        ]
+    },
+    "PERFECT FORM": {
+        "name": "Perfect Form",
+        "description": "Hits reduce other ability cooldowns by 15%, up to 1.2s per hit (5%/0.5s for LIGHT hits).",
+        "types": null,
+        "categories": [
+            "Utility"
+        ],
+        "effects": null
+    },
+    "PRIMETIME": {
+        "name": "Primetime",
+        "description": "PRIMARY gains +1 charge and hits 5% harder (2% to Core).",
+        "types": [
+            "PRIMARY"
+        ],
+        "categories": [
+            "Power",
+            "Utility"
+        ],
+        "effects": [
+            "PRIMARY GAIN 1",
+            "PRIMARY HIT 5% 2%"
+        ]
+    },
+    "PRIZE FIGHTER": {
+        "name": "Prize Fighter",
+        "description": "Begin each set with 1 Prize Fighter stack, granting 20 Power. Takedowns grant 1 Prize Fighter stack (max 3 stacks), but getting K.O.'d removes 1 stack. Stacks resets between sets.",
+        "types": null,
+        "categories": [
+            "Power"
+        ],
+        "effects": null
+    },
+    "QUICK STRIKE": {
+        "name": "Quick Strike",
+        "description": "Strike cooldown reduced by 25%. Strike hits grant 2 additional Energy.",
+        "types": null,
+        "categories": [
+            "Utility"
+        ],
+        "effects": null
+    },
+    "RAPID FIRE": {
+        "name": "Rapid Fire",
+        "description": "PRIMARY cooldown reduced by 40%.",
+        "types": [
+            "PRIMARY"
+        ],
+        "categories": [
+            "Utility"
+        ],
+        "effects": [
+            "PRIMARY COOLDOWN 40%"
+        ]
+    },
+    "REVERBERATION": {
+        "name": "Reverberation",
+        "description": "Gain 300 max Stagger and .8 Cooldown Rate per 100 max Stagger.",
+        "types": null,
+        "categories": [
+            "Sustain"
+        ],
+        "effects": [
+            "STAGGER GAIN 300"
+        ]
+    },
+    "SPECIALIZED TRAINING": {
+        "name": "Specialized Training",
+        "description": "SPECIAL hits 55% harder (11% to Core) and heals 55% more.",
+        "types": [
+            "SPECIAL"
+        ],
+        "categories": [
+            "Power"
+        ],
+        "effects": [
+            "SPECIAL HIT 55% 11%"
+        ]
+    },
+    "STACKS ON STACKS": {
+        "name": "Stacks On Stacks",
+        "description": "Hits grant 6 stacks of Speed (0.12% per stack, 24% Speed at Max Stacks, 2 stacks for LIGHT hits). At 100 stacks, double the Speed per stack. Stacks reset when K.O.'d and between sets.",
+        "types": null,
+        "categories": [
+            "Mobility"
+        ],
+        "effects": null
+    },
+    "STAGGER SWAGGER": {
+        "name": "Stagger Swagger",
+        "description": "Gain 8% Speed. While below 50% Stagger, this effect increases to 20% and you heal 150 Stagger per second, including while in the Staggered state.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Sustain"
+        ],
+        "effects": [
+            "SPEED ADD 8%"
+        ]
+    },
+    "SUPER SURGE": {
+        "name": "Super Surge",
+        "description": "DASH range, BLINK range, and HASTE effects increased 75%. These abilities hit 25% harder (5% to Core).",
+        "types": [
+            "DASH",
+            "BLINK",
+            "HASTE"
+        ],
+        "categories": [
+            "Mobility",
+            "Power"
+        ],
+        "effects": [
+            "DASH/BLINK/HASTE HIT 25% 5%"
+        ]
+    },
+    "TEMPO SWING": {
+        "name": "Tempo Swing",
+        "description": "Hitting anything heals you for 5% of your max Stagger (1.66% for LIGHT hits) and deals that amount as damage to the target hit.",
+        "types": null,
+        "categories": [
+            "Power",
+            "Sustain"
+        ],
+        "effects": null
+    },
+    "TIMELESS CREATOR": {
+        "name": "Timeless Creator",
+        "description": "CREATIONS gain 70% duration and 50% size.",
+        "types": [
+            "CREATION"
+        ],
+        "categories": [
+            "Duration"
+        ],
+        "effects": [
+            "CREATION DURATION 70%"
+        ]
+    },
+    "TWIN DRIVE": {
+        "name": "Twin Drive",
+        "description": "SECONDARY gains +1 charge and has 5% reduced cooldown.",
+        "types": [
+            "SECONDARY"
+        ],
+        "categories": [
+            "Utility"
+        ],
+        "effects": [
+            "SECONDARY GAIN 1",
+            "SECONDARY COOLDOWN 5%"
+        ]
+    },
+    "ADRENALINE RUSH": {
+        "name": "Adrenaline Rush",
+        "description": "Ability cooldowns reduced by 1s. Earning a Takedown increases Speed by 100% for 8s and reduces current cooldowns by 5s.",
+        "types": null,
+        "categories": [
+            "Mobility",
+            "Utility"
+        ],
+        "effects": [
+            "ABILITY COOLDOWN 1s"
+        ]
+    },
+    "SPARK OF AGILITY": {
+        "name": "Spark of Agility",
+        "description": "SPARK - Gain 2% Speed, plus 8% per SPARK you have.",
+        "types": [
+            "SPARK"
+        ],
+        "categories": [
+            "Mobility"
+        ],
+        "effects": [
+            "SPEED ADD 2%",
+            "SPEED PER 8% 1 SPARK"
+        ]
+    },
+    "SPARK OF FOCUS": {
+        "name": "Spark of Focus",
+        "description": "SPARK - Gain 2 Cooldown Rate, plus 10 per SPARK you have.",
+        "types": [
+            "SPARK"
+        ],
+        "categories": [
+            "Utility"
+        ],
+        "effects": null
+    },
+    "SPARK OF RESILIENCE": {
+        "name": "Spark of Resilience",
+        "description": "SPARK - Gain 50 max Stagger, plus 200 per SPARK you have.",
+        "types": [
+            "SPARK"
+        ],
+        "categories": [
+            "Sustain"
+        ],
+        "effects": [
+            "STAGGER ADD 50",
+            "STAGGER PER 200 1 SPARK"
+        ]
+    },
+    "SPARK OF STRENGTH": {
+        "name": "Spark of Strength",
+        "description": "SPARK - Gain 4 Power, plus 20 per SPARK you have.",
+        "types": [
+            "SPARK"
+        ],
+        "categories": [
+            "Power"
+        ],
+        "effects": [
+            "POWER ADD 4",
+            "POWER PER 20 1 SPARK"
+        ]
+    },
+    "STINGER": {
+        "name": "Stinger",
+        "description": "Hits deal bonus damage equal to 12% of enemies' max Stagger over 2.5s.",
+        "types": null,
+        "categories": [
+            "Power",
+            "Utility"
+        ],
+        "effects": null
+    },
+    "UNSTOPPABLE": {
+        "name": "Unstoppable",
+        "description": "While not staggered, gain 90% knockback resistance and 10% damage reduction.",
+        "types": null,
+        "categories": [
+            "Sustain"
+        ],
+        "effects": null
+    }
+}
