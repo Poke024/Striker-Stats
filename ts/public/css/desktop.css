@@ -65,9 +65,9 @@ main {
   margin-left: 10px;
   overflow: hidden;
 
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: red;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .rightBox {
@@ -78,9 +78,9 @@ main {
   float: right;
   overflow: hidden;
   
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: blue;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .verticalHalf {
@@ -95,9 +95,9 @@ main {
   position: absolute;
   bottom: 0px;
 
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: yellow;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .adColumn {
@@ -108,9 +108,9 @@ main {
   margin-top: 10px;
   background-color: rgb(25, 62, 104);
 
-  border-width: 1px;
+  /* border-width: 1px;
   border-color: yellow;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .link {
